@@ -1,7 +1,3 @@
-Qpsing Evo
-==========
-==========
-todo
 
 
 Description
