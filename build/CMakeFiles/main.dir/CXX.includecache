@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nam/kingDocument/projekt/1_pr/actors/actor.hh
+stdio.h
+-
+
+/home/nam/kingDocument/projekt/1_pr/main.cc
+actors/actor.hh
+/home/nam/kingDocument/projekt/1_pr/actors/actor.hh
+
