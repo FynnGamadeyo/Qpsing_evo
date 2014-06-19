@@ -4,10 +4,15 @@
 CMakeFiles/main.dir/actors/actor.cc.o
  /home/nam/kingDocument/projekt/1_pr/actors/actor.cc
  /home/nam/kingDocument/projekt/1_pr/actors/actor.hh
-CMakeFiles/main.dir/drivers/display.cc.o
- /home/nam/kingDocument/projekt/1_pr/drivers/display.cc
+CMakeFiles/main.dir/drivers/graphics/display.cc.o
+ /home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.cc
+ /home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.hh
+CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.o
+ /home/nam/kingDocument/projekt/1_pr/drivers/graphics/terminalRender.cc
+ /home/nam/kingDocument/projekt/1_pr/drivers/graphics/terminalRender.hh
 CMakeFiles/main.dir/drivers/kboard.cc.o
  /home/nam/kingDocument/projekt/1_pr/drivers/kboard.cc
+ /home/nam/kingDocument/projekt/1_pr/drivers/kboard.hh
 CMakeFiles/main.dir/effects/effect.cc.o
  /home/nam/kingDocument/projekt/1_pr/effects/effect.cc
 CMakeFiles/main.dir/main.cc.o

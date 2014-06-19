@@ -135,29 +135,53 @@ actors/actor.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/actors/actor.cc.s
 .PHONY : actors/actor.cc.s
 
-drivers/display.o: drivers/display.cc.o
-.PHONY : drivers/display.o
+drivers/graphics/display.o: drivers/graphics/display.cc.o
+.PHONY : drivers/graphics/display.o
 
 # target to build an object file
-drivers/display.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/display.cc.o
-.PHONY : drivers/display.cc.o
+drivers/graphics/display.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/display.cc.o
+.PHONY : drivers/graphics/display.cc.o
 
-drivers/display.i: drivers/display.cc.i
-.PHONY : drivers/display.i
+drivers/graphics/display.i: drivers/graphics/display.cc.i
+.PHONY : drivers/graphics/display.i
 
 # target to preprocess a source file
-drivers/display.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/display.cc.i
-.PHONY : drivers/display.cc.i
+drivers/graphics/display.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/display.cc.i
+.PHONY : drivers/graphics/display.cc.i
 
-drivers/display.s: drivers/display.cc.s
-.PHONY : drivers/display.s
+drivers/graphics/display.s: drivers/graphics/display.cc.s
+.PHONY : drivers/graphics/display.s
 
 # target to generate assembly for a file
-drivers/display.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/display.cc.s
-.PHONY : drivers/display.cc.s
+drivers/graphics/display.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/display.cc.s
+.PHONY : drivers/graphics/display.cc.s
+
+drivers/graphics/terminalRender.o: drivers/graphics/terminalRender.cc.o
+.PHONY : drivers/graphics/terminalRender.o
+
+# target to build an object file
+drivers/graphics/terminalRender.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.o
+.PHONY : drivers/graphics/terminalRender.cc.o
+
+drivers/graphics/terminalRender.i: drivers/graphics/terminalRender.cc.i
+.PHONY : drivers/graphics/terminalRender.i
+
+# target to preprocess a source file
+drivers/graphics/terminalRender.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.i
+.PHONY : drivers/graphics/terminalRender.cc.i
+
+drivers/graphics/terminalRender.s: drivers/graphics/terminalRender.cc.s
+.PHONY : drivers/graphics/terminalRender.s
+
+# target to generate assembly for a file
+drivers/graphics/terminalRender.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.s
+.PHONY : drivers/graphics/terminalRender.cc.s
 
 drivers/kboard.o: drivers/kboard.cc.o
 .PHONY : drivers/kboard.o
@@ -315,9 +339,12 @@ help:
 	@echo "... actors/actor.o"
 	@echo "... actors/actor.i"
 	@echo "... actors/actor.s"
-	@echo "... drivers/display.o"
-	@echo "... drivers/display.i"
-	@echo "... drivers/display.s"
+	@echo "... drivers/graphics/display.o"
+	@echo "... drivers/graphics/display.i"
+	@echo "... drivers/graphics/display.s"
+	@echo "... drivers/graphics/terminalRender.o"
+	@echo "... drivers/graphics/terminalRender.i"
+	@echo "... drivers/graphics/terminalRender.s"
 	@echo "... drivers/kboard.o"
 	@echo "... drivers/kboard.i"
 	@echo "... drivers/kboard.s"

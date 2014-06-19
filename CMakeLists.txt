@@ -8,6 +8,7 @@ add_executable(main main.cc
 		weapons/weapon.cc
 		spells/spell.cc
 		effects/effect.cc
-		drivers/display.cc
+		drivers/graphics/display.cc
+		drivers/graphics/terminalRender.cc
 		drivers/kboard.cc
 		actors/actor.cc)
