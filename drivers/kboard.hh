@@ -8,5 +8,6 @@
 
 int getch();
 int kbhit(void);
+int keyPressed(char key);
 
 #endif /* kboard_HH */
