@@ -1,6 +1,6 @@
 #include "actors/actor.hh"
+#include <curses.h>
 
 int main(){
-	Actor actor;
-	actor.moveDown();
+	initscr();
 }

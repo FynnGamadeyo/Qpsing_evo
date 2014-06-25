@@ -281,6 +281,8 @@ main: CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.o
 main: CMakeFiles/main.dir/drivers/kboard.cc.o
 main: CMakeFiles/main.dir/actors/actor.cc.o
 main: CMakeFiles/main.dir/build.make
+main: /usr/lib/x86_64-linux-gnu/libcurses.so
+main: /usr/lib/x86_64-linux-gnu/libform.so
 main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
