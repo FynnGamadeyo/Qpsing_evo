@@ -1,7 +1,38 @@
 #include "actors/actor.hh"
 #include <ncurses.h>
+#include <sys/ioctl.h>
+#include <stdio.h>
+
 int main()
 {	
+	
+	struct winsize w;
+    ioctl(0, TIOCGWINSZ, &w);
+    
+	int ch;
+	initscr();
+	raw();
+	keypad(stdscr, TRUE);
+	noecho();
+	
+	printw("Type something please\n");
+	ch = getch();
+	
+	if(ch == KEY_F(1)){
+		printw("F1 Key pressed");
+	}else{
+		printw("The pressed key is ");
+		attron(A_BOLD);
+		printw("%c", ch);
+		printw ("lines %d\n", w.ws_row);
+		printw ("columns %d\n", w.ws_col);
+		attroff(A_BOLD);
+	}
+	
+	refresh();	
+	getch();
+	endwin();
+	
 	//~ int ch;
 //~ 
 	//~ initscr();			/* Start curses mode 		*/

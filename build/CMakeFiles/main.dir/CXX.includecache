@@ -15,4 +15,8 @@ actors/actor.hh
 /home/nam/kingDocument/projekt/1_pr/actors/actor.hh
 ncurses.h
 -
+sys/ioctl.h
+-
+stdio.h
+-
 
