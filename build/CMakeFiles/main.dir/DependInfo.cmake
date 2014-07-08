@@ -6,7 +6,6 @@ SET(CMAKE_DEPENDS_LANGUAGES
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/nam/kingDocument/projekt/1_pr/actors/actor.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/actors/actor.cc.o"
   "/home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/drivers/graphics/display.cc.o"
-  "/home/nam/kingDocument/projekt/1_pr/drivers/graphics/terminalRender.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.o"
   "/home/nam/kingDocument/projekt/1_pr/drivers/kboard.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/drivers/kboard.cc.o"
   "/home/nam/kingDocument/projekt/1_pr/effects/effect.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/effects/effect.cc.o"
   "/home/nam/kingDocument/projekt/1_pr/main.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/main.cc.o"

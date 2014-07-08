@@ -7,9 +7,6 @@ CMakeFiles/main.dir/actors/actor.cc.o: ../actors/actor.hh
 CMakeFiles/main.dir/drivers/graphics/display.cc.o: ../drivers/graphics/display.cc
 CMakeFiles/main.dir/drivers/graphics/display.cc.o: ../drivers/graphics/display.hh
 
-CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.o: ../drivers/graphics/terminalRender.cc
-CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.o: ../drivers/graphics/terminalRender.hh
-
 CMakeFiles/main.dir/drivers/kboard.cc.o: ../drivers/kboard.cc
 CMakeFiles/main.dir/drivers/kboard.cc.o: ../drivers/kboard.hh
 

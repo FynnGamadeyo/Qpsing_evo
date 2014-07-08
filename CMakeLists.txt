@@ -20,7 +20,6 @@ add_executable(main main.cc
 		spells/spell.cc
 		effects/effect.cc
 		drivers/graphics/display.cc
-		drivers/graphics/terminalRender.cc
 		drivers/kboard.cc
 		actors/actor.cc)
 

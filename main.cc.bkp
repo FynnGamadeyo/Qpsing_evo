@@ -7,18 +7,15 @@ int main()
 {	
 	
 	struct winsize w;
-	int x,y;	
+	
 	int ch;
 	initscr();
 	raw();
 	keypad(stdscr, TRUE);
 	noecho();
-	ioctl(0,TIOCGWINSZ, &w);
-
-	int sizeOfChatField = 4;
-
-	//WINDOW *chatField = newwin(w.ws_row,w.ws_col,0,0);
-	getmaxyx(stdscr,x,y);	
+	
+	printw("Type something please\n");
+	
 	
 	do{
 	ch = getch();
@@ -27,9 +24,8 @@ int main()
 	
 	
 	ioctl(0, TIOCGWINSZ, &w);
-	getmaxyx(stdscr,x,y);
-	printw ("lines %d,   %d\n", w.ws_row,x);
-	printw ("columns %d,   %d\n", w.ws_col,y);
+	printw ("lines %d\n", w.ws_row);
+	printw ("columns %d\n", w.ws_col);
 	
 	attron(A_BOLD);
 	mvprintw(w.ws_row-1,w.ws_col-1,"namgiang\n");

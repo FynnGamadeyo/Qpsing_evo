@@ -159,30 +159,6 @@ drivers/graphics/display.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/display.cc.s
 .PHONY : drivers/graphics/display.cc.s
 
-drivers/graphics/terminalRender.o: drivers/graphics/terminalRender.cc.o
-.PHONY : drivers/graphics/terminalRender.o
-
-# target to build an object file
-drivers/graphics/terminalRender.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.o
-.PHONY : drivers/graphics/terminalRender.cc.o
-
-drivers/graphics/terminalRender.i: drivers/graphics/terminalRender.cc.i
-.PHONY : drivers/graphics/terminalRender.i
-
-# target to preprocess a source file
-drivers/graphics/terminalRender.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.i
-.PHONY : drivers/graphics/terminalRender.cc.i
-
-drivers/graphics/terminalRender.s: drivers/graphics/terminalRender.cc.s
-.PHONY : drivers/graphics/terminalRender.s
-
-# target to generate assembly for a file
-drivers/graphics/terminalRender.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/terminalRender.cc.s
-.PHONY : drivers/graphics/terminalRender.cc.s
-
 drivers/kboard.o: drivers/kboard.cc.o
 .PHONY : drivers/kboard.o
 
@@ -342,9 +318,6 @@ help:
 	@echo "... drivers/graphics/display.o"
 	@echo "... drivers/graphics/display.i"
 	@echo "... drivers/graphics/display.s"
-	@echo "... drivers/graphics/terminalRender.o"
-	@echo "... drivers/graphics/terminalRender.i"
-	@echo "... drivers/graphics/terminalRender.s"
 	@echo "... drivers/kboard.o"
 	@echo "... drivers/kboard.i"
 	@echo "... drivers/kboard.s"
