@@ -13,6 +13,7 @@ CMakeFiles/main.dir/drivers/kboard.cc.o: ../drivers/kboard.hh
 CMakeFiles/main.dir/effects/effect.cc.o: ../effects/effect.cc
 
 CMakeFiles/main.dir/main.cc.o: ../actors/actor.hh
+CMakeFiles/main.dir/main.cc.o: ../drivers/graphics/display.hh
 CMakeFiles/main.dir/main.cc.o: ../main.cc
 
 CMakeFiles/main.dir/spells/spell.cc.o: ../spells/spell.cc

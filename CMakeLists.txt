@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.6)
-project(qpsing)
+project(d)
 
 add_definitions(-g -O0 -Wall)
 
@@ -12,7 +12,7 @@ message(STATUS "curses.h : ${CURSES_HAVE_CURSES_H}")
 message(STATUS "ncurses.h : ${CURSES_HAVE_NCURSES_H}")
 message(STATUS "ncurses.h : ${CURSES_HAVE_NCURSES_NCURSES_H}")
 message(STATUS "curses.h : ${CURSES_HAVE_NCURSES_CURSES_H}")
-message(STATUS "")
+message(STATUS "TRY TO COMPILE!")
 
 add_executable(main main.cc
 		world/worldgenerator.cc

@@ -6,3 +6,19 @@
 
 #IncludeRegexTransform: 
 
+/home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.cc
+display.hh
+/home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.hh
+
+/home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.hh
+ncurses.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+string
+-
+map
+-
+

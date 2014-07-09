@@ -1,41 +1,47 @@
 #include "actors/actor.hh"
+#include "drivers/graphics/display.hh"
 #include <ncurses.h>
 #include <sys/ioctl.h>
 #include <stdio.h>
+#include <unistd.h>
 
 int main()
 {	
-	
-	struct winsize w;
 	int x,y;	
 	int ch;
-	initscr();
-	raw();
-	keypad(stdscr, TRUE);
-	noecho();
-	ioctl(0,TIOCGWINSZ, &w);
+	
+	initDisplay();
+	
+	getmaxyx(stdscr,y,x);
 
 	int sizeOfChatField = 4;
-
-	//WINDOW *chatField = newwin(w.ws_row,w.ws_col,0,0);
-	getmaxyx(stdscr,x,y);	
+	
+	WINDOW *chatField = newwin(y-sizeOfChatField,x,0,0);
+	WINDOW *viewField = newwin(sizeOfChatField,x,y-sizeOfChatField,0);
+	
+	mvwprintw(chatField,0,0,"field");
+	mvwprintw(viewField,0,0,"otherfield");
+	
+		
+	wrefresh(chatField);
+	wrefresh(viewField);
 	
 	do{
-	ch = getch();
-	clear();
-	printw("The pressed key is ");
+	ch = wgetch(chatField);
+	wclear(viewField);
+	wclear(chatField);
 	
-	
-	ioctl(0, TIOCGWINSZ, &w);
 	getmaxyx(stdscr,x,y);
-	printw ("lines %d,   %d\n", w.ws_row,x);
-	printw ("columns %d,   %d\n", w.ws_col,y);
+	wprintw (viewField,"lines %d\n", x);
+	wprintw (viewField,"columns %d\n", y);
 	
 	attron(A_BOLD);
-	mvprintw(w.ws_row-1,w.ws_col-1,"namgiang\n");
+	wprintw(chatField,"namgiang\n");
 	attroff(A_BOLD);
 	
-	refresh();
+	wrefresh(chatField);
+	wrefresh(viewField);
+	
 	}while(ch!='q');
 	
 	
@@ -43,7 +49,9 @@ int main()
 		printw("F1 Key pressed");
 	}
 	
-
-	endwin();
+	delwin(chatField);
+	delwin(viewField);
+	deinitDisplay();
+	
 	return 0;
 }
