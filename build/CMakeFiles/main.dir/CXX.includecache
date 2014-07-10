@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.cc
-display.hh
-/home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.hh
+/home/nam/kingDocument/projekt/1_pr/src/actors/actor.cc
+actor.hh
+/home/nam/kingDocument/projekt/1_pr/src/actors/actor.hh
 
-/home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.hh
+/home/nam/kingDocument/projekt/1_pr/src/actors/actor.hh
+stdio.h
+-
+
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.cc
+display.hh
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
+
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
 ncurses.h
 -
 sys/ioctl.h
@@ -21,4 +29,40 @@ string
 -
 map
 -
+
+/home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.cc
+kboard.hh
+/home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.hh
+
+/home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.hh
+termios.h
+-
+string.h
+-
+string
+-
+stdio.h
+-
+
+/home/nam/kingDocument/projekt/1_pr/src/effects/effect.cc
+
+/home/nam/kingDocument/projekt/1_pr/src/main.cc
+actors/actor.hh
+/home/nam/kingDocument/projekt/1_pr/src/actors/actor.hh
+drivers/graphics/display.hh
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
+ncurses.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+unistd.h
+-
+
+/home/nam/kingDocument/projekt/1_pr/src/spells/spell.cc
+
+/home/nam/kingDocument/projekt/1_pr/src/weapons/weapon.cc
+
+/home/nam/kingDocument/projekt/1_pr/src/world/worldgenerator.cc
 

@@ -111,197 +111,197 @@ main/fast:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-actors/actor.o: actors/actor.cc.o
-.PHONY : actors/actor.o
+src/actors/actor.o: src/actors/actor.cc.o
+.PHONY : src/actors/actor.o
 
 # target to build an object file
-actors/actor.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/actors/actor.cc.o
-.PHONY : actors/actor.cc.o
+src/actors/actor.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/actors/actor.cc.o
+.PHONY : src/actors/actor.cc.o
 
-actors/actor.i: actors/actor.cc.i
-.PHONY : actors/actor.i
+src/actors/actor.i: src/actors/actor.cc.i
+.PHONY : src/actors/actor.i
 
 # target to preprocess a source file
-actors/actor.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/actors/actor.cc.i
-.PHONY : actors/actor.cc.i
+src/actors/actor.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/actors/actor.cc.i
+.PHONY : src/actors/actor.cc.i
 
-actors/actor.s: actors/actor.cc.s
-.PHONY : actors/actor.s
+src/actors/actor.s: src/actors/actor.cc.s
+.PHONY : src/actors/actor.s
 
 # target to generate assembly for a file
-actors/actor.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/actors/actor.cc.s
-.PHONY : actors/actor.cc.s
+src/actors/actor.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/actors/actor.cc.s
+.PHONY : src/actors/actor.cc.s
 
-drivers/graphics/display.o: drivers/graphics/display.cc.o
-.PHONY : drivers/graphics/display.o
+src/drivers/graphics/display.o: src/drivers/graphics/display.cc.o
+.PHONY : src/drivers/graphics/display.o
 
 # target to build an object file
-drivers/graphics/display.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/display.cc.o
-.PHONY : drivers/graphics/display.cc.o
+src/drivers/graphics/display.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/display.cc.o
+.PHONY : src/drivers/graphics/display.cc.o
 
-drivers/graphics/display.i: drivers/graphics/display.cc.i
-.PHONY : drivers/graphics/display.i
+src/drivers/graphics/display.i: src/drivers/graphics/display.cc.i
+.PHONY : src/drivers/graphics/display.i
 
 # target to preprocess a source file
-drivers/graphics/display.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/display.cc.i
-.PHONY : drivers/graphics/display.cc.i
+src/drivers/graphics/display.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/display.cc.i
+.PHONY : src/drivers/graphics/display.cc.i
 
-drivers/graphics/display.s: drivers/graphics/display.cc.s
-.PHONY : drivers/graphics/display.s
+src/drivers/graphics/display.s: src/drivers/graphics/display.cc.s
+.PHONY : src/drivers/graphics/display.s
 
 # target to generate assembly for a file
-drivers/graphics/display.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/display.cc.s
-.PHONY : drivers/graphics/display.cc.s
+src/drivers/graphics/display.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/display.cc.s
+.PHONY : src/drivers/graphics/display.cc.s
 
-drivers/kboard.o: drivers/kboard.cc.o
-.PHONY : drivers/kboard.o
+src/drivers/kboard.o: src/drivers/kboard.cc.o
+.PHONY : src/drivers/kboard.o
 
 # target to build an object file
-drivers/kboard.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/kboard.cc.o
-.PHONY : drivers/kboard.cc.o
+src/drivers/kboard.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/kboard.cc.o
+.PHONY : src/drivers/kboard.cc.o
 
-drivers/kboard.i: drivers/kboard.cc.i
-.PHONY : drivers/kboard.i
+src/drivers/kboard.i: src/drivers/kboard.cc.i
+.PHONY : src/drivers/kboard.i
 
 # target to preprocess a source file
-drivers/kboard.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/kboard.cc.i
-.PHONY : drivers/kboard.cc.i
+src/drivers/kboard.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/kboard.cc.i
+.PHONY : src/drivers/kboard.cc.i
 
-drivers/kboard.s: drivers/kboard.cc.s
-.PHONY : drivers/kboard.s
+src/drivers/kboard.s: src/drivers/kboard.cc.s
+.PHONY : src/drivers/kboard.s
 
 # target to generate assembly for a file
-drivers/kboard.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/kboard.cc.s
-.PHONY : drivers/kboard.cc.s
+src/drivers/kboard.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/kboard.cc.s
+.PHONY : src/drivers/kboard.cc.s
 
-effects/effect.o: effects/effect.cc.o
-.PHONY : effects/effect.o
+src/effects/effect.o: src/effects/effect.cc.o
+.PHONY : src/effects/effect.o
 
 # target to build an object file
-effects/effect.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/effects/effect.cc.o
-.PHONY : effects/effect.cc.o
+src/effects/effect.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/effects/effect.cc.o
+.PHONY : src/effects/effect.cc.o
 
-effects/effect.i: effects/effect.cc.i
-.PHONY : effects/effect.i
+src/effects/effect.i: src/effects/effect.cc.i
+.PHONY : src/effects/effect.i
 
 # target to preprocess a source file
-effects/effect.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/effects/effect.cc.i
-.PHONY : effects/effect.cc.i
+src/effects/effect.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/effects/effect.cc.i
+.PHONY : src/effects/effect.cc.i
 
-effects/effect.s: effects/effect.cc.s
-.PHONY : effects/effect.s
+src/effects/effect.s: src/effects/effect.cc.s
+.PHONY : src/effects/effect.s
 
 # target to generate assembly for a file
-effects/effect.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/effects/effect.cc.s
-.PHONY : effects/effect.cc.s
+src/effects/effect.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/effects/effect.cc.s
+.PHONY : src/effects/effect.cc.s
 
-main.o: main.cc.o
-.PHONY : main.o
+src/main.o: src/main.cc.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cc.o
-.PHONY : main.cc.o
+src/main.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cc.o
+.PHONY : src/main.cc.o
 
-main.i: main.cc.i
-.PHONY : main.i
+src/main.i: src/main.cc.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cc.i
-.PHONY : main.cc.i
+src/main.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cc.i
+.PHONY : src/main.cc.i
 
-main.s: main.cc.s
-.PHONY : main.s
+src/main.s: src/main.cc.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cc.s
-.PHONY : main.cc.s
+src/main.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cc.s
+.PHONY : src/main.cc.s
 
-spells/spell.o: spells/spell.cc.o
-.PHONY : spells/spell.o
+src/spells/spell.o: src/spells/spell.cc.o
+.PHONY : src/spells/spell.o
 
 # target to build an object file
-spells/spell.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/spells/spell.cc.o
-.PHONY : spells/spell.cc.o
+src/spells/spell.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/spells/spell.cc.o
+.PHONY : src/spells/spell.cc.o
 
-spells/spell.i: spells/spell.cc.i
-.PHONY : spells/spell.i
+src/spells/spell.i: src/spells/spell.cc.i
+.PHONY : src/spells/spell.i
 
 # target to preprocess a source file
-spells/spell.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/spells/spell.cc.i
-.PHONY : spells/spell.cc.i
+src/spells/spell.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/spells/spell.cc.i
+.PHONY : src/spells/spell.cc.i
 
-spells/spell.s: spells/spell.cc.s
-.PHONY : spells/spell.s
+src/spells/spell.s: src/spells/spell.cc.s
+.PHONY : src/spells/spell.s
 
 # target to generate assembly for a file
-spells/spell.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/spells/spell.cc.s
-.PHONY : spells/spell.cc.s
+src/spells/spell.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/spells/spell.cc.s
+.PHONY : src/spells/spell.cc.s
 
-weapons/weapon.o: weapons/weapon.cc.o
-.PHONY : weapons/weapon.o
+src/weapons/weapon.o: src/weapons/weapon.cc.o
+.PHONY : src/weapons/weapon.o
 
 # target to build an object file
-weapons/weapon.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/weapons/weapon.cc.o
-.PHONY : weapons/weapon.cc.o
+src/weapons/weapon.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/weapons/weapon.cc.o
+.PHONY : src/weapons/weapon.cc.o
 
-weapons/weapon.i: weapons/weapon.cc.i
-.PHONY : weapons/weapon.i
+src/weapons/weapon.i: src/weapons/weapon.cc.i
+.PHONY : src/weapons/weapon.i
 
 # target to preprocess a source file
-weapons/weapon.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/weapons/weapon.cc.i
-.PHONY : weapons/weapon.cc.i
+src/weapons/weapon.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/weapons/weapon.cc.i
+.PHONY : src/weapons/weapon.cc.i
 
-weapons/weapon.s: weapons/weapon.cc.s
-.PHONY : weapons/weapon.s
+src/weapons/weapon.s: src/weapons/weapon.cc.s
+.PHONY : src/weapons/weapon.s
 
 # target to generate assembly for a file
-weapons/weapon.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/weapons/weapon.cc.s
-.PHONY : weapons/weapon.cc.s
+src/weapons/weapon.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/weapons/weapon.cc.s
+.PHONY : src/weapons/weapon.cc.s
 
-world/worldgenerator.o: world/worldgenerator.cc.o
-.PHONY : world/worldgenerator.o
+src/world/worldgenerator.o: src/world/worldgenerator.cc.o
+.PHONY : src/world/worldgenerator.o
 
 # target to build an object file
-world/worldgenerator.cc.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/world/worldgenerator.cc.o
-.PHONY : world/worldgenerator.cc.o
+src/world/worldgenerator.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/world/worldgenerator.cc.o
+.PHONY : src/world/worldgenerator.cc.o
 
-world/worldgenerator.i: world/worldgenerator.cc.i
-.PHONY : world/worldgenerator.i
+src/world/worldgenerator.i: src/world/worldgenerator.cc.i
+.PHONY : src/world/worldgenerator.i
 
 # target to preprocess a source file
-world/worldgenerator.cc.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/world/worldgenerator.cc.i
-.PHONY : world/worldgenerator.cc.i
+src/world/worldgenerator.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/world/worldgenerator.cc.i
+.PHONY : src/world/worldgenerator.cc.i
 
-world/worldgenerator.s: world/worldgenerator.cc.s
-.PHONY : world/worldgenerator.s
+src/world/worldgenerator.s: src/world/worldgenerator.cc.s
+.PHONY : src/world/worldgenerator.s
 
 # target to generate assembly for a file
-world/worldgenerator.cc.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/world/worldgenerator.cc.s
-.PHONY : world/worldgenerator.cc.s
+src/world/worldgenerator.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/world/worldgenerator.cc.s
+.PHONY : src/world/worldgenerator.cc.s
 
 # Help Target
 help:
@@ -312,30 +312,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... rebuild_cache"
-	@echo "... actors/actor.o"
-	@echo "... actors/actor.i"
-	@echo "... actors/actor.s"
-	@echo "... drivers/graphics/display.o"
-	@echo "... drivers/graphics/display.i"
-	@echo "... drivers/graphics/display.s"
-	@echo "... drivers/kboard.o"
-	@echo "... drivers/kboard.i"
-	@echo "... drivers/kboard.s"
-	@echo "... effects/effect.o"
-	@echo "... effects/effect.i"
-	@echo "... effects/effect.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... spells/spell.o"
-	@echo "... spells/spell.i"
-	@echo "... spells/spell.s"
-	@echo "... weapons/weapon.o"
-	@echo "... weapons/weapon.i"
-	@echo "... weapons/weapon.s"
-	@echo "... world/worldgenerator.o"
-	@echo "... world/worldgenerator.i"
-	@echo "... world/worldgenerator.s"
+	@echo "... src/actors/actor.o"
+	@echo "... src/actors/actor.i"
+	@echo "... src/actors/actor.s"
+	@echo "... src/drivers/graphics/display.o"
+	@echo "... src/drivers/graphics/display.i"
+	@echo "... src/drivers/graphics/display.s"
+	@echo "... src/drivers/kboard.o"
+	@echo "... src/drivers/kboard.i"
+	@echo "... src/drivers/kboard.s"
+	@echo "... src/effects/effect.o"
+	@echo "... src/effects/effect.i"
+	@echo "... src/effects/effect.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/spells/spell.o"
+	@echo "... src/spells/spell.i"
+	@echo "... src/spells/spell.s"
+	@echo "... src/weapons/weapon.o"
+	@echo "... src/weapons/weapon.i"
+	@echo "... src/weapons/weapon.s"
+	@echo "... src/world/worldgenerator.o"
+	@echo "... src/world/worldgenerator.i"
+	@echo "... src/world/worldgenerator.s"
 .PHONY : help
 
 

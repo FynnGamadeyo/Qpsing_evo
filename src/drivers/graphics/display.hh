@@ -9,8 +9,6 @@
 
 using namespace std;
 
-void update();
-
 /**
  * clear specific Area
  **/
@@ -18,15 +16,15 @@ void clearArea(int x, int y);
 
 void initDisplay();
 
-WINDOW createWindow();
+WINDOW* createWindow(string name,int height,int width,int y,int x);
 
 void createMenu();
 
 void deleteWindowByName(string name);
 
-void wdeleteWindow(WINDOW w);
-
 void refreshAllWindows();
+
+void clearAllWindows();
 
 void deinitDisplay();
 

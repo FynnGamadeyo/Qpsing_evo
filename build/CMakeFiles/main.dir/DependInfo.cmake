@@ -4,14 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nam/kingDocument/projekt/1_pr/actors/actor.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/actors/actor.cc.o"
-  "/home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/drivers/graphics/display.cc.o"
-  "/home/nam/kingDocument/projekt/1_pr/drivers/kboard.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/drivers/kboard.cc.o"
-  "/home/nam/kingDocument/projekt/1_pr/effects/effect.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/effects/effect.cc.o"
-  "/home/nam/kingDocument/projekt/1_pr/main.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/main.cc.o"
-  "/home/nam/kingDocument/projekt/1_pr/spells/spell.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/spells/spell.cc.o"
-  "/home/nam/kingDocument/projekt/1_pr/weapons/weapon.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/weapons/weapon.cc.o"
-  "/home/nam/kingDocument/projekt/1_pr/world/worldgenerator.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/world/worldgenerator.cc.o"
+  "/home/nam/kingDocument/projekt/1_pr/src/actors/actor.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/src/actors/actor.cc.o"
+  "/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/src/drivers/graphics/display.cc.o"
+  "/home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/src/drivers/kboard.cc.o"
+  "/home/nam/kingDocument/projekt/1_pr/src/effects/effect.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/src/effects/effect.cc.o"
+  "/home/nam/kingDocument/projekt/1_pr/src/main.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/src/main.cc.o"
+  "/home/nam/kingDocument/projekt/1_pr/src/spells/spell.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/src/spells/spell.cc.o"
+  "/home/nam/kingDocument/projekt/1_pr/src/weapons/weapon.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/src/weapons/weapon.cc.o"
+  "/home/nam/kingDocument/projekt/1_pr/src/world/worldgenerator.cc" "/home/nam/kingDocument/projekt/1_pr/build/CMakeFiles/main.dir/src/world/worldgenerator.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

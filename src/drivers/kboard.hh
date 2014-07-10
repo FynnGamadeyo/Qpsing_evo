@@ -6,7 +6,7 @@
 #include <string>
 #include <stdio.h>
 
-int getch();
+int wgetch();
 int kbhit(void);
 int keyPressed(char key);
 

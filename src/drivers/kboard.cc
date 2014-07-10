@@ -2,7 +2,7 @@
 
 int keyPressed(char key){
 	if(kbhit()==1){
-		if(getch()==key){
+		if(wgetch()==key){
 			return 1;
 		}		
 	}
@@ -31,7 +31,7 @@ int kbhit(void) {
 
 }
 
-int getch(){
+int wgetch(){
 	static int ch = -1, fd = 0;
 	struct termios neu, alt;
 	fd = fileno(stdin);

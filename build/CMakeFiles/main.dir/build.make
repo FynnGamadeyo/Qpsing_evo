@@ -49,212 +49,212 @@ include CMakeFiles/main.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/main.dir/flags.make
 
-CMakeFiles/main.dir/main.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/main.cc.o: ../main.cc
+CMakeFiles/main.dir/src/main.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/main.cc.o: ../src/main.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/main.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/main.cc.o -c /home/nam/kingDocument/projekt/1_pr/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/main.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/main.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/main.cc
 
-CMakeFiles/main.dir/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/main.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/main.cc > CMakeFiles/main.dir/main.cc.i
+CMakeFiles/main.dir/src/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/main.cc > CMakeFiles/main.dir/src/main.cc.i
 
-CMakeFiles/main.dir/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/main.cc -o CMakeFiles/main.dir/main.cc.s
+CMakeFiles/main.dir/src/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/main.cc -o CMakeFiles/main.dir/src/main.cc.s
 
-CMakeFiles/main.dir/main.cc.o.requires:
-.PHONY : CMakeFiles/main.dir/main.cc.o.requires
+CMakeFiles/main.dir/src/main.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/main.cc.o.requires
 
-CMakeFiles/main.dir/main.cc.o.provides: CMakeFiles/main.dir/main.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/main.cc.o.provides
+CMakeFiles/main.dir/src/main.cc.o.provides: CMakeFiles/main.dir/src/main.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/main.cc.o.provides
 
-CMakeFiles/main.dir/main.cc.o.provides.build: CMakeFiles/main.dir/main.cc.o
+CMakeFiles/main.dir/src/main.cc.o.provides.build: CMakeFiles/main.dir/src/main.cc.o
 
-CMakeFiles/main.dir/world/worldgenerator.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/world/worldgenerator.cc.o: ../world/worldgenerator.cc
+CMakeFiles/main.dir/src/world/worldgenerator.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/world/worldgenerator.cc.o: ../src/world/worldgenerator.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/world/worldgenerator.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/world/worldgenerator.cc.o -c /home/nam/kingDocument/projekt/1_pr/world/worldgenerator.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/world/worldgenerator.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/world/worldgenerator.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/world/worldgenerator.cc
 
-CMakeFiles/main.dir/world/worldgenerator.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/world/worldgenerator.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/world/worldgenerator.cc > CMakeFiles/main.dir/world/worldgenerator.cc.i
+CMakeFiles/main.dir/src/world/worldgenerator.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/world/worldgenerator.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/world/worldgenerator.cc > CMakeFiles/main.dir/src/world/worldgenerator.cc.i
 
-CMakeFiles/main.dir/world/worldgenerator.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/world/worldgenerator.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/world/worldgenerator.cc -o CMakeFiles/main.dir/world/worldgenerator.cc.s
+CMakeFiles/main.dir/src/world/worldgenerator.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/world/worldgenerator.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/world/worldgenerator.cc -o CMakeFiles/main.dir/src/world/worldgenerator.cc.s
 
-CMakeFiles/main.dir/world/worldgenerator.cc.o.requires:
-.PHONY : CMakeFiles/main.dir/world/worldgenerator.cc.o.requires
+CMakeFiles/main.dir/src/world/worldgenerator.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/world/worldgenerator.cc.o.requires
 
-CMakeFiles/main.dir/world/worldgenerator.cc.o.provides: CMakeFiles/main.dir/world/worldgenerator.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/world/worldgenerator.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/world/worldgenerator.cc.o.provides
+CMakeFiles/main.dir/src/world/worldgenerator.cc.o.provides: CMakeFiles/main.dir/src/world/worldgenerator.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/world/worldgenerator.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/world/worldgenerator.cc.o.provides
 
-CMakeFiles/main.dir/world/worldgenerator.cc.o.provides.build: CMakeFiles/main.dir/world/worldgenerator.cc.o
+CMakeFiles/main.dir/src/world/worldgenerator.cc.o.provides.build: CMakeFiles/main.dir/src/world/worldgenerator.cc.o
 
-CMakeFiles/main.dir/weapons/weapon.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/weapons/weapon.cc.o: ../weapons/weapon.cc
+CMakeFiles/main.dir/src/weapons/weapon.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/weapons/weapon.cc.o: ../src/weapons/weapon.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/weapons/weapon.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/weapons/weapon.cc.o -c /home/nam/kingDocument/projekt/1_pr/weapons/weapon.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/weapons/weapon.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/weapons/weapon.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/weapons/weapon.cc
 
-CMakeFiles/main.dir/weapons/weapon.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/weapons/weapon.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/weapons/weapon.cc > CMakeFiles/main.dir/weapons/weapon.cc.i
+CMakeFiles/main.dir/src/weapons/weapon.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/weapons/weapon.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/weapons/weapon.cc > CMakeFiles/main.dir/src/weapons/weapon.cc.i
 
-CMakeFiles/main.dir/weapons/weapon.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/weapons/weapon.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/weapons/weapon.cc -o CMakeFiles/main.dir/weapons/weapon.cc.s
+CMakeFiles/main.dir/src/weapons/weapon.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/weapons/weapon.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/weapons/weapon.cc -o CMakeFiles/main.dir/src/weapons/weapon.cc.s
 
-CMakeFiles/main.dir/weapons/weapon.cc.o.requires:
-.PHONY : CMakeFiles/main.dir/weapons/weapon.cc.o.requires
+CMakeFiles/main.dir/src/weapons/weapon.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/weapons/weapon.cc.o.requires
 
-CMakeFiles/main.dir/weapons/weapon.cc.o.provides: CMakeFiles/main.dir/weapons/weapon.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/weapons/weapon.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/weapons/weapon.cc.o.provides
+CMakeFiles/main.dir/src/weapons/weapon.cc.o.provides: CMakeFiles/main.dir/src/weapons/weapon.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/weapons/weapon.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/weapons/weapon.cc.o.provides
 
-CMakeFiles/main.dir/weapons/weapon.cc.o.provides.build: CMakeFiles/main.dir/weapons/weapon.cc.o
+CMakeFiles/main.dir/src/weapons/weapon.cc.o.provides.build: CMakeFiles/main.dir/src/weapons/weapon.cc.o
 
-CMakeFiles/main.dir/spells/spell.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/spells/spell.cc.o: ../spells/spell.cc
+CMakeFiles/main.dir/src/spells/spell.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/spells/spell.cc.o: ../src/spells/spell.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/spells/spell.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/spells/spell.cc.o -c /home/nam/kingDocument/projekt/1_pr/spells/spell.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/spells/spell.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/spells/spell.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/spells/spell.cc
 
-CMakeFiles/main.dir/spells/spell.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/spells/spell.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/spells/spell.cc > CMakeFiles/main.dir/spells/spell.cc.i
+CMakeFiles/main.dir/src/spells/spell.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/spells/spell.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/spells/spell.cc > CMakeFiles/main.dir/src/spells/spell.cc.i
 
-CMakeFiles/main.dir/spells/spell.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/spells/spell.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/spells/spell.cc -o CMakeFiles/main.dir/spells/spell.cc.s
+CMakeFiles/main.dir/src/spells/spell.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/spells/spell.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/spells/spell.cc -o CMakeFiles/main.dir/src/spells/spell.cc.s
 
-CMakeFiles/main.dir/spells/spell.cc.o.requires:
-.PHONY : CMakeFiles/main.dir/spells/spell.cc.o.requires
+CMakeFiles/main.dir/src/spells/spell.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/spells/spell.cc.o.requires
 
-CMakeFiles/main.dir/spells/spell.cc.o.provides: CMakeFiles/main.dir/spells/spell.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/spells/spell.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/spells/spell.cc.o.provides
+CMakeFiles/main.dir/src/spells/spell.cc.o.provides: CMakeFiles/main.dir/src/spells/spell.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/spells/spell.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/spells/spell.cc.o.provides
 
-CMakeFiles/main.dir/spells/spell.cc.o.provides.build: CMakeFiles/main.dir/spells/spell.cc.o
+CMakeFiles/main.dir/src/spells/spell.cc.o.provides.build: CMakeFiles/main.dir/src/spells/spell.cc.o
 
-CMakeFiles/main.dir/effects/effect.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/effects/effect.cc.o: ../effects/effect.cc
+CMakeFiles/main.dir/src/effects/effect.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/effects/effect.cc.o: ../src/effects/effect.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_5)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/effects/effect.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/effects/effect.cc.o -c /home/nam/kingDocument/projekt/1_pr/effects/effect.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/effects/effect.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/effects/effect.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/effects/effect.cc
 
-CMakeFiles/main.dir/effects/effect.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/effects/effect.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/effects/effect.cc > CMakeFiles/main.dir/effects/effect.cc.i
+CMakeFiles/main.dir/src/effects/effect.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/effects/effect.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/effects/effect.cc > CMakeFiles/main.dir/src/effects/effect.cc.i
 
-CMakeFiles/main.dir/effects/effect.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/effects/effect.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/effects/effect.cc -o CMakeFiles/main.dir/effects/effect.cc.s
+CMakeFiles/main.dir/src/effects/effect.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/effects/effect.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/effects/effect.cc -o CMakeFiles/main.dir/src/effects/effect.cc.s
 
-CMakeFiles/main.dir/effects/effect.cc.o.requires:
-.PHONY : CMakeFiles/main.dir/effects/effect.cc.o.requires
+CMakeFiles/main.dir/src/effects/effect.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/effects/effect.cc.o.requires
 
-CMakeFiles/main.dir/effects/effect.cc.o.provides: CMakeFiles/main.dir/effects/effect.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/effects/effect.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/effects/effect.cc.o.provides
+CMakeFiles/main.dir/src/effects/effect.cc.o.provides: CMakeFiles/main.dir/src/effects/effect.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/effects/effect.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/effects/effect.cc.o.provides
 
-CMakeFiles/main.dir/effects/effect.cc.o.provides.build: CMakeFiles/main.dir/effects/effect.cc.o
+CMakeFiles/main.dir/src/effects/effect.cc.o.provides.build: CMakeFiles/main.dir/src/effects/effect.cc.o
 
-CMakeFiles/main.dir/drivers/graphics/display.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/drivers/graphics/display.cc.o: ../drivers/graphics/display.cc
+CMakeFiles/main.dir/src/drivers/graphics/display.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/drivers/graphics/display.cc.o: ../src/drivers/graphics/display.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_6)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/drivers/graphics/display.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/drivers/graphics/display.cc.o -c /home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/drivers/graphics/display.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/drivers/graphics/display.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.cc
 
-CMakeFiles/main.dir/drivers/graphics/display.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/drivers/graphics/display.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.cc > CMakeFiles/main.dir/drivers/graphics/display.cc.i
+CMakeFiles/main.dir/src/drivers/graphics/display.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/drivers/graphics/display.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.cc > CMakeFiles/main.dir/src/drivers/graphics/display.cc.i
 
-CMakeFiles/main.dir/drivers/graphics/display.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/drivers/graphics/display.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/drivers/graphics/display.cc -o CMakeFiles/main.dir/drivers/graphics/display.cc.s
+CMakeFiles/main.dir/src/drivers/graphics/display.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/drivers/graphics/display.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.cc -o CMakeFiles/main.dir/src/drivers/graphics/display.cc.s
 
-CMakeFiles/main.dir/drivers/graphics/display.cc.o.requires:
-.PHONY : CMakeFiles/main.dir/drivers/graphics/display.cc.o.requires
+CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.requires
 
-CMakeFiles/main.dir/drivers/graphics/display.cc.o.provides: CMakeFiles/main.dir/drivers/graphics/display.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/graphics/display.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/drivers/graphics/display.cc.o.provides
+CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.provides: CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.provides
 
-CMakeFiles/main.dir/drivers/graphics/display.cc.o.provides.build: CMakeFiles/main.dir/drivers/graphics/display.cc.o
+CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.provides.build: CMakeFiles/main.dir/src/drivers/graphics/display.cc.o
 
-CMakeFiles/main.dir/drivers/kboard.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/drivers/kboard.cc.o: ../drivers/kboard.cc
+CMakeFiles/main.dir/src/drivers/kboard.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/drivers/kboard.cc.o: ../src/drivers/kboard.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_7)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/drivers/kboard.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/drivers/kboard.cc.o -c /home/nam/kingDocument/projekt/1_pr/drivers/kboard.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/drivers/kboard.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/drivers/kboard.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.cc
 
-CMakeFiles/main.dir/drivers/kboard.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/drivers/kboard.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/drivers/kboard.cc > CMakeFiles/main.dir/drivers/kboard.cc.i
+CMakeFiles/main.dir/src/drivers/kboard.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/drivers/kboard.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.cc > CMakeFiles/main.dir/src/drivers/kboard.cc.i
 
-CMakeFiles/main.dir/drivers/kboard.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/drivers/kboard.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/drivers/kboard.cc -o CMakeFiles/main.dir/drivers/kboard.cc.s
+CMakeFiles/main.dir/src/drivers/kboard.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/drivers/kboard.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.cc -o CMakeFiles/main.dir/src/drivers/kboard.cc.s
 
-CMakeFiles/main.dir/drivers/kboard.cc.o.requires:
-.PHONY : CMakeFiles/main.dir/drivers/kboard.cc.o.requires
+CMakeFiles/main.dir/src/drivers/kboard.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/drivers/kboard.cc.o.requires
 
-CMakeFiles/main.dir/drivers/kboard.cc.o.provides: CMakeFiles/main.dir/drivers/kboard.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/drivers/kboard.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/drivers/kboard.cc.o.provides
+CMakeFiles/main.dir/src/drivers/kboard.cc.o.provides: CMakeFiles/main.dir/src/drivers/kboard.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/kboard.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/drivers/kboard.cc.o.provides
 
-CMakeFiles/main.dir/drivers/kboard.cc.o.provides.build: CMakeFiles/main.dir/drivers/kboard.cc.o
+CMakeFiles/main.dir/src/drivers/kboard.cc.o.provides.build: CMakeFiles/main.dir/src/drivers/kboard.cc.o
 
-CMakeFiles/main.dir/actors/actor.cc.o: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/actors/actor.cc.o: ../actors/actor.cc
+CMakeFiles/main.dir/src/actors/actor.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/actors/actor.cc.o: ../src/actors/actor.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_8)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/actors/actor.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/actors/actor.cc.o -c /home/nam/kingDocument/projekt/1_pr/actors/actor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/actors/actor.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/actors/actor.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/actors/actor.cc
 
-CMakeFiles/main.dir/actors/actor.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/actors/actor.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/actors/actor.cc > CMakeFiles/main.dir/actors/actor.cc.i
+CMakeFiles/main.dir/src/actors/actor.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/actors/actor.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/actors/actor.cc > CMakeFiles/main.dir/src/actors/actor.cc.i
 
-CMakeFiles/main.dir/actors/actor.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/actors/actor.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/actors/actor.cc -o CMakeFiles/main.dir/actors/actor.cc.s
+CMakeFiles/main.dir/src/actors/actor.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/actors/actor.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/actors/actor.cc -o CMakeFiles/main.dir/src/actors/actor.cc.s
 
-CMakeFiles/main.dir/actors/actor.cc.o.requires:
-.PHONY : CMakeFiles/main.dir/actors/actor.cc.o.requires
+CMakeFiles/main.dir/src/actors/actor.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/actors/actor.cc.o.requires
 
-CMakeFiles/main.dir/actors/actor.cc.o.provides: CMakeFiles/main.dir/actors/actor.cc.o.requires
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/actors/actor.cc.o.provides.build
-.PHONY : CMakeFiles/main.dir/actors/actor.cc.o.provides
+CMakeFiles/main.dir/src/actors/actor.cc.o.provides: CMakeFiles/main.dir/src/actors/actor.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/actors/actor.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/actors/actor.cc.o.provides
 
-CMakeFiles/main.dir/actors/actor.cc.o.provides.build: CMakeFiles/main.dir/actors/actor.cc.o
+CMakeFiles/main.dir/src/actors/actor.cc.o.provides.build: CMakeFiles/main.dir/src/actors/actor.cc.o
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles/main.dir/main.cc.o" \
-"CMakeFiles/main.dir/world/worldgenerator.cc.o" \
-"CMakeFiles/main.dir/weapons/weapon.cc.o" \
-"CMakeFiles/main.dir/spells/spell.cc.o" \
-"CMakeFiles/main.dir/effects/effect.cc.o" \
-"CMakeFiles/main.dir/drivers/graphics/display.cc.o" \
-"CMakeFiles/main.dir/drivers/kboard.cc.o" \
-"CMakeFiles/main.dir/actors/actor.cc.o"
+"CMakeFiles/main.dir/src/main.cc.o" \
+"CMakeFiles/main.dir/src/world/worldgenerator.cc.o" \
+"CMakeFiles/main.dir/src/weapons/weapon.cc.o" \
+"CMakeFiles/main.dir/src/spells/spell.cc.o" \
+"CMakeFiles/main.dir/src/effects/effect.cc.o" \
+"CMakeFiles/main.dir/src/drivers/graphics/display.cc.o" \
+"CMakeFiles/main.dir/src/drivers/kboard.cc.o" \
+"CMakeFiles/main.dir/src/actors/actor.cc.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-main: CMakeFiles/main.dir/main.cc.o
-main: CMakeFiles/main.dir/world/worldgenerator.cc.o
-main: CMakeFiles/main.dir/weapons/weapon.cc.o
-main: CMakeFiles/main.dir/spells/spell.cc.o
-main: CMakeFiles/main.dir/effects/effect.cc.o
-main: CMakeFiles/main.dir/drivers/graphics/display.cc.o
-main: CMakeFiles/main.dir/drivers/kboard.cc.o
-main: CMakeFiles/main.dir/actors/actor.cc.o
+main: CMakeFiles/main.dir/src/main.cc.o
+main: CMakeFiles/main.dir/src/world/worldgenerator.cc.o
+main: CMakeFiles/main.dir/src/weapons/weapon.cc.o
+main: CMakeFiles/main.dir/src/spells/spell.cc.o
+main: CMakeFiles/main.dir/src/effects/effect.cc.o
+main: CMakeFiles/main.dir/src/drivers/graphics/display.cc.o
+main: CMakeFiles/main.dir/src/drivers/kboard.cc.o
+main: CMakeFiles/main.dir/src/actors/actor.cc.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libcurses.so
 main: /usr/lib/x86_64-linux-gnu/libform.so
@@ -266,14 +266,14 @@ main: CMakeFiles/main.dir/link.txt
 CMakeFiles/main.dir/build: main
 .PHONY : CMakeFiles/main.dir/build
 
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/main.cc.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/world/worldgenerator.cc.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/weapons/weapon.cc.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/spells/spell.cc.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/effects/effect.cc.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/drivers/graphics/display.cc.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/drivers/kboard.cc.o.requires
-CMakeFiles/main.dir/requires: CMakeFiles/main.dir/actors/actor.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/main.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/world/worldgenerator.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/weapons/weapon.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/spells/spell.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/effects/effect.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/drivers/kboard.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/actors/actor.cc.o.requires
 .PHONY : CMakeFiles/main.dir/requires
 
 CMakeFiles/main.dir/clean:
