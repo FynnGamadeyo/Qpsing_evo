@@ -9,10 +9,21 @@
 
 using namespace std;
 
-/**
- * clear specific Area
- **/
-void clearArea(int x, int y);
+struct Sprite{
+	int color;
+	string name;
+	int x;
+	int y;
+};
+
+struct SubWindow{
+	string name;
+	WINDOW window;
+	int height;
+	int width;
+	int posX;
+	int posY;
+};
 
 void initDisplay();
 
@@ -27,5 +38,15 @@ void refreshAllWindows();
 void clearAllWindows();
 
 void deinitDisplay();
+
+/////////////////////////////// Subwindow methods
+
+int createSubWindow(WINDOW * w, string name, int height, int width, int y, int x);
+
+int resizeSubWindow(string name, int height, int width);
+
+int changeXYSubWindow(string name, int height, int width);
+
+int deleteSubWindow(string name);
 
 #endif /* DISPLAY_HH  */

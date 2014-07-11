@@ -16,19 +16,6 @@ void refreshAllWindows(){
 	}
 }
 
-void clearArea(WINDOW *w,int x, int y){
-	int currentX,currentY;
-	getyx(stdscr,currentY,currentX);
-	
-	//move to specific Area to clear
-	wmove(w,y,x);
-
-	wclrtoeol(w);
-	
-	//move back to current position
-	wmove(w,currentY,currentX);
-}
-
 void initDisplay(){
 	initscr();
 	raw();
@@ -38,7 +25,7 @@ void initDisplay(){
 }
 
 WINDOW* createWindow(string name,int height,int width,int y,int x){
-	WINDOW *w = newwin(height,width,y,x);
+	WINDOW *w =newwin(height,width,y,x);
 	windows[name]=w;
 	return w;
 }
@@ -56,4 +43,3 @@ void deinitDisplay(){
 	}
 	endwin();
 }
-

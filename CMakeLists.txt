@@ -3,7 +3,7 @@ project(qpsing)
 
 # set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/modules;${CMAKE_MOUDLE_PATH}")
 
-add_definitions(-g -O0 -Wall)
+add_definitions(-g -O3 -Wall)
 
 message(STATUS "-- Curses:")
 find_package(Curses REQUIRED)
@@ -22,6 +22,7 @@ add_executable(main src/main.cc
 		src/spells/spell.cc
 		src/effects/effect.cc
 		src/drivers/graphics/display.cc
+		src/drivers/graphics/draw.cc
 		src/drivers/kboard.cc
 		src/actors/actor.cc)
 

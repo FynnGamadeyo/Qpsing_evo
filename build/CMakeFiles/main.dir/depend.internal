@@ -7,6 +7,9 @@ CMakeFiles/main.dir/src/actors/actor.cc.o
 CMakeFiles/main.dir/src/drivers/graphics/display.cc.o
  /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.cc
  /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
+CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o
+ /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.cc
+ /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.hh
 CMakeFiles/main.dir/src/drivers/kboard.cc.o
  /home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.cc
  /home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.hh
@@ -15,6 +18,7 @@ CMakeFiles/main.dir/src/effects/effect.cc.o
 CMakeFiles/main.dir/src/main.cc.o
  /home/nam/kingDocument/projekt/1_pr/src/actors/actor.hh
  /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
+ /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.hh
  /home/nam/kingDocument/projekt/1_pr/src/main.cc
 CMakeFiles/main.dir/src/spells/spell.cc.o
  /home/nam/kingDocument/projekt/1_pr/src/spells/spell.cc

@@ -187,9 +187,32 @@ CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.provides: CMakeFiles/main.
 
 CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.provides.build: CMakeFiles/main.dir/src/drivers/graphics/display.cc.o
 
+CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o: ../src/drivers/graphics/draw.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.cc
+
+CMakeFiles/main.dir/src/drivers/graphics/draw.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/drivers/graphics/draw.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.cc > CMakeFiles/main.dir/src/drivers/graphics/draw.cc.i
+
+CMakeFiles/main.dir/src/drivers/graphics/draw.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/drivers/graphics/draw.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.cc -o CMakeFiles/main.dir/src/drivers/graphics/draw.cc.s
+
+CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o.requires
+
+CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o.provides: CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o.provides
+
+CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o.provides.build: CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o
+
 CMakeFiles/main.dir/src/drivers/kboard.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/drivers/kboard.cc.o: ../src/drivers/kboard.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/drivers/kboard.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/drivers/kboard.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/drivers/kboard.cc
 
@@ -212,7 +235,7 @@ CMakeFiles/main.dir/src/drivers/kboard.cc.o.provides.build: CMakeFiles/main.dir/
 
 CMakeFiles/main.dir/src/actors/actor.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/actors/actor.cc.o: ../src/actors/actor.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/1_pr/build/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/actors/actor.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/actors/actor.cc.o -c /home/nam/kingDocument/projekt/1_pr/src/actors/actor.cc
 
@@ -241,6 +264,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/spells/spell.cc.o" \
 "CMakeFiles/main.dir/src/effects/effect.cc.o" \
 "CMakeFiles/main.dir/src/drivers/graphics/display.cc.o" \
+"CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o" \
 "CMakeFiles/main.dir/src/drivers/kboard.cc.o" \
 "CMakeFiles/main.dir/src/actors/actor.cc.o"
 
@@ -253,6 +277,7 @@ main: CMakeFiles/main.dir/src/weapons/weapon.cc.o
 main: CMakeFiles/main.dir/src/spells/spell.cc.o
 main: CMakeFiles/main.dir/src/effects/effect.cc.o
 main: CMakeFiles/main.dir/src/drivers/graphics/display.cc.o
+main: CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o
 main: CMakeFiles/main.dir/src/drivers/kboard.cc.o
 main: CMakeFiles/main.dir/src/actors/actor.cc.o
 main: CMakeFiles/main.dir/build.make
@@ -272,6 +297,7 @@ CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/weapons/weapon.cc.o.requir
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/spells/spell.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/effects/effect.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/drivers/graphics/display.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/drivers/kboard.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/actors/actor.cc.o.requires
 .PHONY : CMakeFiles/main.dir/requires

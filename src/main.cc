@@ -1,5 +1,6 @@
 #include "actors/actor.hh"
 #include "drivers/graphics/display.hh"
+#include "drivers/graphics/draw.hh"
 #include <ncurses.h>
 #include <sys/ioctl.h>
 #include <stdio.h>
@@ -8,10 +9,28 @@
 int main()
 {
 	int x,y;
-	
+	initDisplay();
 	getmaxyx(stdscr,y,x);
 	
-	WINDOW *screen = createWindow("screen",y,x,0,0);
+	WINDOW *screen  = createWindow("screen",y,x,0,0);
+	
+	
+	WINDOW *subsreen = subwin(screen, 10, 10,10, 10);
+
+
+	
+	fillWindow(screen,'#');
+	fillWindow(subsreen,'A');
+	
+	
+	
+	touchwin(subsreen);
+	wrefresh(subsreen);
+	refreshAllWindows();
+	
+	wgetch(subsreen);
+	
+	deinitDisplay();
 	
 	return 0;
 }

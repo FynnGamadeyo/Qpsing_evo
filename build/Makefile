@@ -159,6 +159,30 @@ src/drivers/graphics/display.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/display.cc.s
 .PHONY : src/drivers/graphics/display.cc.s
 
+src/drivers/graphics/draw.o: src/drivers/graphics/draw.cc.o
+.PHONY : src/drivers/graphics/draw.o
+
+# target to build an object file
+src/drivers/graphics/draw.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o
+.PHONY : src/drivers/graphics/draw.cc.o
+
+src/drivers/graphics/draw.i: src/drivers/graphics/draw.cc.i
+.PHONY : src/drivers/graphics/draw.i
+
+# target to preprocess a source file
+src/drivers/graphics/draw.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/draw.cc.i
+.PHONY : src/drivers/graphics/draw.cc.i
+
+src/drivers/graphics/draw.s: src/drivers/graphics/draw.cc.s
+.PHONY : src/drivers/graphics/draw.s
+
+# target to generate assembly for a file
+src/drivers/graphics/draw.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/drivers/graphics/draw.cc.s
+.PHONY : src/drivers/graphics/draw.cc.s
+
 src/drivers/kboard.o: src/drivers/kboard.cc.o
 .PHONY : src/drivers/kboard.o
 
@@ -318,6 +342,9 @@ help:
 	@echo "... src/drivers/graphics/display.o"
 	@echo "... src/drivers/graphics/display.i"
 	@echo "... src/drivers/graphics/display.s"
+	@echo "... src/drivers/graphics/draw.o"
+	@echo "... src/drivers/graphics/draw.i"
+	@echo "... src/drivers/graphics/draw.s"
 	@echo "... src/drivers/kboard.o"
 	@echo "... src/drivers/kboard.i"
 	@echo "... src/drivers/kboard.s"

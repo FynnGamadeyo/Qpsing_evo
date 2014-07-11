@@ -5,6 +5,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/spells/spell.cc.o"
   "CMakeFiles/main.dir/src/effects/effect.cc.o"
   "CMakeFiles/main.dir/src/drivers/graphics/display.cc.o"
+  "CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o"
   "CMakeFiles/main.dir/src/drivers/kboard.cc.o"
   "CMakeFiles/main.dir/src/actors/actor.cc.o"
   "main.pdb"
