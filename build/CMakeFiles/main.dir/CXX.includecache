@@ -10,6 +10,10 @@
 stdio.h
 -
 
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.cc
+display.hh
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
+
 /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
 ncurses.h
 -

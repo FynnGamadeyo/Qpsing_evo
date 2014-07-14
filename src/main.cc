@@ -17,15 +17,16 @@ int main()
 	
 	WINDOW *subsreen = subwin(screen, 10, 10,10, 10);
 
-
+	WINDOW *subscreen2 = subwin(screen,10,10,15,15);
 	
 	fillWindow(screen,'#');
 	fillWindow(subsreen,'A');
+	fillWindow(subscreen2,'B');
 	
 	
 	
-	touchwin(subsreen);
 	wrefresh(subsreen);
+	wrefresh(subscreen2);
 	refreshAllWindows();
 	
 	wgetch(subsreen);

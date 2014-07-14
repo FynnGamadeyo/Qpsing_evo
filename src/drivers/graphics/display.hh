@@ -18,12 +18,15 @@ struct Sprite{
 
 struct SubWindow{
 	string name;
-	WINDOW window;
-	int height;
-	int width;
-	int posX;
-	int posY;
+	WINDOW * window;
+	WINDOW * windowParent;
 };
+
+struct MainWindow{
+	WINDOW * parentWindow;
+	WINDOW * childWindows[];
+};
+
 
 void initDisplay();
 
