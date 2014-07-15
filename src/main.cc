@@ -1,10 +1,16 @@
-#include "actors/actor.hh"
+#include "mechanics/actors/actor.hh"
 #include "drivers/graphics/display.hh"
 #include "drivers/graphics/draw.hh"
 #include <ncurses.h>
 #include <sys/ioctl.h>
 #include <stdio.h>
 #include <unistd.h>
+
+char* testprint(char test[]);
+
+char* testprint(char test[]){
+	return test;
+}
 
 int main()
 {
@@ -32,7 +38,34 @@ int main()
 	wgetch(subsreen);
 	
 	deinitDisplay();
+
+	char * test=new char[2];
+
+	test[0]=1;
+	test[1]=1;
+
+	printf("test[0] %d \n",test[0]);
+	printf("test[1] %d \n",test[1]);
+
+	delete [] test;
+
+	char * tmp = new char[3];
+	tmp[0]=2;
+	tmp[1]=2;
+	tmp[2]=2;
 	
+	test = new char[3];
+	test=testprint(tmp);
+
+	delete [] tmp;
+
+	tmp = new char[2];
+	
+	printf("new[0] %d \n", test[0]);
+	printf("new[1] %d \n", test[1]);
+	printf("new[2] %d \n", test[2]);
+
+
 	return 0;
 }
 

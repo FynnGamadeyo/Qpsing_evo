@@ -1,9 +1,7 @@
 cmake_minimum_required(VERSION 2.6)
 project(qpsing)
 
-# set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake/modules;${CMAKE_MOUDLE_PATH}")
-
-add_definitions(-g -O3 -Wall)
+add_definitions(-g -O0 -Wall)
 
 message(STATUS "-- Curses:")
 find_package(Curses REQUIRED)
@@ -14,16 +12,18 @@ message(STATUS "curses.h : ${CURSES_HAVE_CURSES_H}")
 message(STATUS "ncurses.h : ${CURSES_HAVE_NCURSES_H}")
 message(STATUS "ncurses.h : ${CURSES_HAVE_NCURSES_NCURSES_H}")
 message(STATUS "curses.h : ${CURSES_HAVE_NCURSES_CURSES_H}")
-message(STATUS "TRY TO COMPILE!")
+message(STATUS "")
 
 add_executable(main src/main.cc
-		src/world/worldgenerator.cc
-		src/weapons/weapon.cc
-		src/spells/spell.cc
-		src/effects/effect.cc
+		src/mechanics/world/worldgenerator.cc
+		src/mechanics/weapons/weapon.cc
+		src/mechanics/spells/spell.cc
+		src/mechanics/effects/effect.cc
 		src/drivers/graphics/display.cc
 		src/drivers/graphics/draw.cc
 		src/drivers/kboard.cc
-		src/actors/actor.cc)
+		src/mechanics/actors/actor.cc
+		src/drivers/graphics/terminalRender.cc
+		src/mechanics/game.cc)
 
 target_link_libraries(main ${CURSES_LIBRARIES})
