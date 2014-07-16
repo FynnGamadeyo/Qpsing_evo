@@ -1,18 +1,18 @@
 #include "display.hh"
 
-map<string,WINDOW*> windows;
+map<WINDOW*,WINDOW*[NUMBER_OF_CHILDWINDOW]> windows;
 
 
-void deleteWindowByName(string name){
-	map<string,WINDOW*>::iterator it;
-	it = windows.find(name);
-	delwin(it->second);
+void deleteWindowByName(WINDOW * w){
+	map<WINDOW*,WINDOW*[NUMBER_OF_CHILDWINDOW]>::iterator it;
+	it = windows.find(w);
 	windows.erase(it);
+	delwin(w);
 }
 
 void refreshAllWindows(){
-	for(map<string,WINDOW*>::iterator it = windows.begin(); it != windows.end();++it){
-		wrefresh(it->second);
+	for(map<WINDOW*,WINDOW*[NUMBER_OF_CHILDWINDOW]>::iterator it = windows.begin(); it != windows.end();++it){
+		wrefresh(it->first);
 	}
 }
 
@@ -24,22 +24,31 @@ void initDisplay(){
 	curs_set(FALSE);
 }
 
-WINDOW* createWindow(string name,int height,int width,int y,int x){
+WINDOW* createWindow(int height,int width,int y,int x){
 	WINDOW *w =newwin(height,width,y,x);
-	windows[name]=w;
+	WINDOW * childs[NUMBER_OF_CHILDWINDOW];
+	windows[w];
 	return w;
 }
 
-void clearAllWindows(){
-	for(map<string,WINDOW*>::iterator it = windows.begin(); it != windows.end();++it){
-		wclear(it->second);
-	}
-}
+//~ void clearAllWindows(){
+	//~ for(map<string,MainWindow>::iterator it = windows.begin(); it != windows.end();++it){
+		//~ wclear(it->second.parentWindow);
+	//~ }
+//~ }
+//~ 
+//~ void deinitDisplay(){
+	//~ for(map<string,MainWindow>::iterator it = windows.begin(); it != windows.end();++it){
+		//~ delwin(it->second.parentWindow);
+		//~ windows.erase(it->first);
+	//~ }
+	//~ endwin();
+//~ }
 
-void deinitDisplay(){
-	for(map<string,WINDOW*>::iterator it = windows.begin(); it != windows.end();++it){
-		delwin(it->second);
-		windows.erase(it->first);
-	}
-	endwin();
+/////////////////////////////////// subWindow
+
+WINDOW* createSubWindow(WINDOW * w, string name, int height, int width, int y, int x){
+	WINDOW * result = subwin(w,height,width,y,x);
+	
+	return result;
 }

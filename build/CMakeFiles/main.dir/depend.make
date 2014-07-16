@@ -7,6 +7,7 @@ CMakeFiles/main.dir/src/drivers/graphics/display.cc.o: ../src/drivers/graphics/d
 CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o: ../src/drivers/graphics/draw.cc
 CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o: ../src/drivers/graphics/draw.hh
 
+CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o: ../src/drivers/graphics/display.hh
 CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o: ../src/drivers/graphics/terminalRender.cc
 CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o: ../src/drivers/graphics/terminalRender.hh
 

@@ -8,6 +8,7 @@ CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o
  /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.cc
  /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.hh
 CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o
+ /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
  /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/terminalRender.cc
  /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/terminalRender.hh
 CMakeFiles/main.dir/src/drivers/kboard.cc.o

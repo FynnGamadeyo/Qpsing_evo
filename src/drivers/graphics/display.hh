@@ -1,6 +1,8 @@
 #ifndef DISPLAY_HH
 #define DISPLAY_HH 1
 
+#define NUMBER_OF_CHILDWINDOW 12
+
 #include <ncurses.h>
 #include <sys/ioctl.h>
 #include <stdio.h>
@@ -17,24 +19,23 @@ struct Sprite{
 };
 
 struct SubWindow{
-	string name;
-	WINDOW * window;
+	string * name;
 	WINDOW * windowParent;
 };
 
 struct MainWindow{
 	WINDOW * parentWindow;
-	WINDOW * childWindows[];
+	map<string,WINDOW*> childWindows;
 };
 
 
 void initDisplay();
 
-WINDOW* createWindow(string name,int height,int width,int y,int x);
+WINDOW* createWindow(int height,int width,int y,int x);
 
 void createMenu();
 
-void deleteWindowByName(string name);
+void deleteWindowByName(WINDOW * W);
 
 void refreshAllWindows();
 
@@ -44,7 +45,7 @@ void deinitDisplay();
 
 /////////////////////////////// Subwindow methods
 
-int createSubWindow(WINDOW * w, string name, int height, int width, int y, int x);
+WINDOW* createSubWindow(WINDOW * w, string name, int height, int width, int y, int x);
 
 int resizeSubWindow(string name, int height, int width);
 
