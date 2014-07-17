@@ -1,35 +1,49 @@
 #include "display.hh"
 
-map<WINDOW*,WINDOW*[NUMBER_OF_CHILDWINDOW]> windows;
-
-
-void deleteWindowByName(WINDOW * w){
-	map<WINDOW*,WINDOW*[NUMBER_OF_CHILDWINDOW]>::iterator it;
-	it = windows.find(w);
-	windows.erase(it);
-	delwin(w);
+Display::Display(){
+	
 }
 
-void refreshAllWindows(){
-	for(map<WINDOW*,WINDOW*[NUMBER_OF_CHILDWINDOW]>::iterator it = windows.begin(); it != windows.end();++it){
-		wrefresh(it->first);
-	}
+Display::~Display(){
+	
 }
 
-void initDisplay(){
+void Display::initDisplay(bool cursset){
 	initscr();
 	raw();
 	keypad(stdscr, TRUE);
 	noecho();
-	curs_set(FALSE);
+	curs_set(cursset);
 }
 
-WINDOW* createWindow(int height,int width,int y,int x){
-	WINDOW *w =newwin(height,width,y,x);
-	WINDOW * childs[NUMBER_OF_CHILDWINDOW];
-	windows[w];
-	return w;
-}
+//~ void deleteWindowByName(WINDOW * w){
+	//~ map<WINDOW*,int]>::iterator it;
+	//~ it = windows.find(w);
+	//~ windows.erase(it);
+	//~ delwin(w);
+//~ }
+
+//~ void refreshAllWindows(){
+	//~ for(map<WINDOW*,WINDOW*[NUMBER_OF_CHILDWINDOW]>::iterator it = windows.begin(); it != windows.end();++it){
+		//~ wrefresh(it->first);
+	//~ }
+//~ }
+//~ 
+//~ void initDisplay(){
+	//~ initscr();
+	//~ raw();
+	//~ keypad(stdscr, TRUE);
+	//~ noecho();
+	//~ curs_set(FALSE);
+//~ }
+//~ 
+//~ WINDOW* createWindow(int height,int width,int y,int x){
+	//~ WINDOW * w =newwin(height,width,y,x);
+	//~ WINDOW * childs[NUMBER_OF_CHILDWINDOW];
+	//~ windows[w];
+
+	//~ return w;
+//~ }
 
 //~ void clearAllWindows(){
 	//~ for(map<string,MainWindow>::iterator it = windows.begin(); it != windows.end();++it){

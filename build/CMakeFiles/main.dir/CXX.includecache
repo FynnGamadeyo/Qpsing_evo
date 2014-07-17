@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.cc
-display.hh
-/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
-
 /home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
 ncurses.h
 -
@@ -19,6 +15,34 @@ stdio.h
 -
 string
 -
+stack
+-
 map
+-
+
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.hh
+ncurses.h
+-
+
+/home/nam/kingDocument/projekt/1_pr/src/main.cc
+mechanics/actors/actor.hh
+/home/nam/kingDocument/projekt/1_pr/src/mechanics/actors/actor.hh
+drivers/graphics/display.hh
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/display.hh
+drivers/graphics/draw.hh
+/home/nam/kingDocument/projekt/1_pr/src/drivers/graphics/draw.hh
+ncurses.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+unistd.h
+-
+stack
+-
+
+/home/nam/kingDocument/projekt/1_pr/src/mechanics/actors/actor.hh
+stdio.h
 -
 
