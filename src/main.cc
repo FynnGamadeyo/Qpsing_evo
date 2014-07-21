@@ -12,15 +12,11 @@
 
 using namespace std;
 
-int abc[]={1,2,3,4};
 
 int main()
 {
-	int bcd[]={5,6,7,8};
-	free abc;
 	stack<int> ngtest;
 	for(int i=1;i<5;i++) ngtest.push(i);
-	
 	printf("%d\n",ngtest.top());
 	ngtest.pop();
 	printf("%d\n",ngtest.top());
