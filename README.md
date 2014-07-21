@@ -14,11 +14,6 @@ Features
 todo
 
 
-Credits
-==========
-todo
-
-
 License
 ==========
 todo
