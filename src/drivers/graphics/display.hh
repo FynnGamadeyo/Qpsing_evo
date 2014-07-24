@@ -32,7 +32,7 @@ class Display{
 	private:
 	map<WINDOW*,int> parentWindows;
 	WINDOW* childWindows[NUMBER_OF_PARENTWINDOW * NUMBER_OF_CHILDWINDOW];
-	stack<int> resfd;
+	stack<int> freeWindows;
 };
 
 #endif /* DISPLAY_HH  */

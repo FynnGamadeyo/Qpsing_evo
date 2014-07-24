@@ -1,7 +1,9 @@
 #include "display.hh"
 
 Display::Display(){
-	
+	for(int i=0;i<NUMBER_OF_PARENTWINDOW;i++){
+		this->freeWindows.push(i);
+	}
 }
 
 Display::~Display(){
@@ -14,6 +16,19 @@ void Display::initDisplay(bool cursset){
 	keypad(stdscr, TRUE);
 	noecho();
 	curs_set(cursset);
+}
+
+WINDOW* Display::createWindow(int height,int width,int y,int x){
+	if(!this->freeWindows.empty()){
+		WINDOW * w =newwin(height,width,y,x);
+		parentWindows[w]=this->freeWindows.top();
+		return w;
+	}
+	//~ 
+	//~ WINDOW * childs[NUMBER_OF_CHILDWINDOW];
+	//~ windows[w];
+//~ 
+	return 0;
 }
 
 //~ void deleteWindowByName(WINDOW * w){
@@ -37,13 +52,7 @@ void Display::initDisplay(bool cursset){
 	//~ curs_set(FALSE);
 //~ }
 //~ 
-//~ WINDOW* createWindow(int height,int width,int y,int x){
-	//~ WINDOW * w =newwin(height,width,y,x);
-	//~ WINDOW * childs[NUMBER_OF_CHILDWINDOW];
-	//~ windows[w];
 
-	//~ return w;
-//~ }
 
 //~ void clearAllWindows(){
 	//~ for(map<string,MainWindow>::iterator it = windows.begin(); it != windows.end();++it){
