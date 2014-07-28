@@ -31,7 +31,7 @@ WINDOW* Display::createWindow(int height,int width,int y,int x){
 	return 0;
 }
 
-void Display::deleteWindowByName(WINDOW * w){
+void Display::deleteWindow(WINDOW * w){
 	int parent =parentWindows[w];
 	this->freeWindows.push(parent);
 	
