@@ -1,8 +1,11 @@
 #include "display.hh"
 
 Display::Display(){
-	for(int i=0;i<NUMBER_OF_PARENTWINDOW;i++){
-		this->freeWindows.push(i);
+	for(int y=0;y<NUMBER_OF_PARENTWINDOW;y++){
+		this->freeWindows.push(y);
+		for(int x=0;x<NUMBER_OF_CHILDWINDOW;x++){
+			childWindows[x + y*NUMBER_OF_CHILDWINDOW]=0;
+		}
 	}
 }
 
@@ -28,12 +31,14 @@ WINDOW* Display::createWindow(int height,int width,int y,int x){
 	return 0;
 }
 
-//~ void deleteWindowByName(WINDOW * w){
+void Display::deleteWindowByName(WINDOW * w){
+	this->freeWindows.push(parentWindows[w]);
+	
 	//~ map<WINDOW*,int]>::iterator it;
 	//~ it = windows.find(w);
 	//~ windows.erase(it);
 	//~ delwin(w);
-//~ }
+}
 
 //~ void refreshAllWindows(){
 	//~ for(map<WINDOW*,WINDOW*[NUMBER_OF_CHILDWINDOW]>::iterator it = windows.begin(); it != windows.end();++it){
