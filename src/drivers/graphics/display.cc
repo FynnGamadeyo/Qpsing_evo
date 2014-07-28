@@ -22,12 +22,9 @@ WINDOW* Display::createWindow(int height,int width,int y,int x){
 	if(!this->freeWindows.empty()){
 		WINDOW * w =newwin(height,width,y,x);
 		parentWindows[w]=this->freeWindows.top();
+		this->freeWindows.pop();
 		return w;
 	}
-	//~ 
-	//~ WINDOW * childs[NUMBER_OF_CHILDWINDOW];
-	//~ windows[w];
-//~ 
 	return 0;
 }
 
