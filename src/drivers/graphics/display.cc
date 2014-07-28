@@ -43,11 +43,8 @@ void Display::deleteWindow(WINDOW * w){
 			break;
 		}
 	}
-	
-	//~ map<WINDOW*,int]>::iterator it;
-	//~ it = windows.find(w);
-	//~ windows.erase(it);
-	//~ delwin(w);
+	parentWindows.erase(w);
+	delwin(w);
 }
 
 //~ void refreshAllWindows(){
