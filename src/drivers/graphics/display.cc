@@ -32,7 +32,17 @@ WINDOW* Display::createWindow(int height,int width,int y,int x){
 }
 
 void Display::deleteWindowByName(WINDOW * w){
-	this->freeWindows.push(parentWindows[w]);
+	int parent =parentWindows[w];
+	this->freeWindows.push(parent);
+	
+	for(int x=0;x<NUMBER_OF_CHILDWINDOW;x++){
+		if(childWindows[parent*NUMBER_OF_CHILDWINDOW]!=0){
+			delwin(childWindows[parent*NUMBER_OF_CHILDWINDOW]);
+			childWindows[parent*NUMBER_OF_CHILDWINDOW]=0;
+		}else{
+			break;
+		}
+	}
 	
 	//~ map<WINDOW*,int]>::iterator it;
 	//~ it = windows.find(w);

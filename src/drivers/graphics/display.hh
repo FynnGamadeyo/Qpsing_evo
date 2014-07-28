@@ -20,7 +20,7 @@ class Display{
 	void initDisplay(bool cursset);
 	WINDOW* createWindow(int height,int width,int y,int x);
 	void createMenu();
-	void deleteWindowByName(WINDOW * W);
+	void deleteWindow(WINDOW * W);
 	void refreshAllWindows();
 	void clearAllWindows();
 	void deinitDisplay();
