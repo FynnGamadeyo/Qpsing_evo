@@ -11,21 +11,24 @@
 #define C (A+B)
 
 using namespace std;
+void test(int pixel[],int a);
 
+void test(int pixel[],int a){
+    for(int i=0;i<a;i++){
+      pixel[i]=2;
+    }
+}
 
 int main()
 {
-	stack<int> ngtest;
-	for(int i=1;i<5;i++) ngtest.push(i);
-	printf("%d\n",ngtest.top());
-	ngtest.pop();
-	printf("%d\n",ngtest.top());
-	ngtest.pop();
-	printf("%d\n",ngtest.top());
-	ngtest.pop();
-	printf("%d\n",C);
-	ngtest.pop();
-	if(!ngtest.empty())printf("%d\n",ngtest.top());
+	string a;
+	int erg[]={1,1,1,1};
+	
+	for(int i=0;i<4;i++)printf("%d \n",erg[i]);
+	
+	test(erg,4);
+	
+	for(int i=0;i<4;i++)printf("%d \n",erg[i]);
 	//~ int x,y;
 	//~ initDisplay();
 	//~ getmaxyx(stdscr,y,x);
@@ -61,3 +64,5 @@ int main()
 
 	return 0;
 }
+
+
