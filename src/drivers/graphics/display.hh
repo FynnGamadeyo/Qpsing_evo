@@ -15,24 +15,9 @@ using namespace std;
 
 class Display{
 	public:
-	Display();
-	~Display();
-	void initDisplay(bool cursset);
-	WINDOW* createWindow(int height,int width,int y,int x);
-	void createMenu();
-	void deleteWindow(WINDOW * W);
-	void refreshAllWindows();
-	void clearAllWindows();
-	void deinitDisplay();
-	/////////////////////////////// Subwindow methods
-	WINDOW* createSubWindow(WINDOW * w, string name, int height, int width, int y, int x);
-	int resizeSubWindow(string name, int height, int width);
-	int changeXYSubWindow(string name, int height, int width);
-	int deleteSubWindow(string name);
+	Display(bool cursset);
 	private:
-	map<WINDOW*,int> parentWindows;
-	WINDOW* childWindows[NUMBER_OF_PARENTWINDOW * NUMBER_OF_CHILDWINDOW];
-	stack<int> freeWindows;
+	void initDisplay(bool cursset);
 };
 
 #endif /* DISPLAY_HH  */

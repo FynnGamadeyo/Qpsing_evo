@@ -3,15 +3,11 @@
 #define DEFAULTSIZE 12
 #include "display.hh"
 
-void render(int width, int height, char pixels[], WINDOW * w);
 
-//~ class TerminalRender {
-	//~ public:
-		//~ TerminalRender();
-		//~ ~TerminalRender();
-		//~ void render(int width, int height);	
-	//~ private:
-		//~ char * pixels;
-//~ };
+class TerminalRender {
+public:
+      TerminalRender();
+      void render(WINDOW * w, char pixels[], int width, int height);
+};
 
 #endif /* TERMINALRENDER_HH  */
