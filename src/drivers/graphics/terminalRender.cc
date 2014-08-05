@@ -11,5 +11,6 @@ void TerminalRender::render(WINDOW * w, char pixels[], int width, int height){
 		}
 	}
 	wmove(w,0,0);
+	wrefresh(w);
 }
 

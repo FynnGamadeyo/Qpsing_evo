@@ -9,6 +9,7 @@
 #define A 1
 #define B 2
 #define C (A+B)
+#include <sys/time.h>
 
 using namespace std;
 void test(int pixel[],int a);
@@ -21,14 +22,20 @@ void test(int pixel[],int a){
 
 int main()
 {
-	string a;
-	int erg[]={1,1,1,1};
-	
-	for(int i=0;i<4;i++)printf("%d \n",erg[i]);
-	
-	test(erg,4);
-	
-	for(int i=0;i<4;i++)printf("%d \n",erg[i]);
+	timespec ts;
+	clock_gettime(CLOCK_REALTIME,&ts);
+	printf("das liefert es %d \n",ts.tv_nsec);
+	puts("pause");
+	puts("pause");
+	puts("pause");
+	puts("pause");
+	puts("pause");
+	puts("pause");
+	puts("pause");
+	puts("pause");
+	puts("pause");
+	clock_gettime(CLOCK_REALTIME,&ts);
+	printf("Ngneu das liefert es %d \n",ts.tv_nsec);
 	//~ int x,y;
 	//~ initDisplay();
 	//~ getmaxyx(stdscr,y,x);

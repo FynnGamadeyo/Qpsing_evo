@@ -6,49 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/display.hh
-ncurses.h
--
-sys/ioctl.h
--
-stdio.h
--
-string
--
-stack
--
-map
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/game.cc
+game.hh
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/game.hh
+sys/time.h
 -
 
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/draw.cc
-draw.hh
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/draw.hh
-
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/draw.hh
-ncurses.h
--
-string
--
-
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/main.cc
-mechanics/actors/actor.hh
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/actors/actor.hh
-drivers/graphics/display.hh
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/display.hh
-drivers/graphics/draw.hh
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/draw.hh
-ncurses.h
--
-sys/ioctl.h
--
-stdio.h
--
-unistd.h
--
-stack
--
-
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/actors/actor.hh
-stdio.h
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/game.hh
+ctime
 -
 

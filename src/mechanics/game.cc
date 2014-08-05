@@ -1,14 +1,49 @@
 #include "game.hh"
-
-bool running=false;
-
+#include <sys/time.h>
 Game::Game(){
-
+  this->fps=60.0;
+  this->running=false;
 }
 
 void Game::run(){
-	timespec ts;
-	clock_gettime(CLOCK_REALTIME,&ts);
+	int pretime;
+	timespec pretimeInit;
+	clock_gettime(CLOCK_REALTIME,&pretimeInit);
+	pretime=pretimeInit.tv_nsec;
+	timespec curtime;
+	int passtime;
+
+	bool ticked=false;
+	
+	int frames=0;
+	double delta =0;
+	double fix=1.0/fps;
+	int tickcount=0;
+	
+	while(this->running){
+	  clock_gettime(CLOCK_REALTIME,&curtime);
+	  passtime=curtime.tv_nsec-pretime;
+	  delta+=passtime/1000000000.0;
+	  
+	  while(delta>fix){
+	    this->tick();
+	    delta-=fix;
+	    ticked=true;
+	    tickcount++;
+	    if(tickcount % ((int)fps) ==0){
+		pretime+=1000;
+		frames=0;
+	      
+	    }
+	  }
+	  if(ticked){
+	    this->render();
+	    frames++;
+	  }
+	  this->render();
+	  frames++;
+	  
+	}
 
 }
 
@@ -16,9 +51,18 @@ void Game::tick(){
 
 }
 
-void render(){
+void Game::render()
+{
 
 }
+
+void Game::start()
+{
+      this->running=true;
+      this->run();
+}
+
+
 
 //~ long lastTime = System.nanoTime();
 		//~ long timer =  System.currentTimeMillis();
