@@ -11,9 +11,9 @@ class Game {
 		void tick();
 		void render();
 		void stop();
+		void pause();
 		void start();
 		bool running;
 		double fps;
 };
-
 #endif /* GAME_HH */
