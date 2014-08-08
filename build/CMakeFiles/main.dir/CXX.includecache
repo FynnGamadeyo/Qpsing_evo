@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/game.cc
-game.hh
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/game.hh
-sys/time.h
--
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/world/worldgenerator.cc
+worldgenerator.hh
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/world/worldgenerator.hh
 
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/game.hh
-ctime
--
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/world/worldgenerator.hh
 

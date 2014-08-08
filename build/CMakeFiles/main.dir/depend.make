@@ -32,4 +32,5 @@ CMakeFiles/main.dir/src/mechanics/spells/spell.cc.o: ../src/mechanics/spells/spe
 CMakeFiles/main.dir/src/mechanics/weapons/weapon.cc.o: ../src/mechanics/weapons/weapon.cc
 
 CMakeFiles/main.dir/src/mechanics/world/worldgenerator.cc.o: ../src/mechanics/world/worldgenerator.cc
+CMakeFiles/main.dir/src/mechanics/world/worldgenerator.cc.o: ../src/mechanics/world/worldgenerator.hh
 
