@@ -10,32 +10,20 @@
 #define B 2
 #define C (A+B)
 #include <sys/time.h>
+#include <vector>
+
 
 using namespace std;
-void test(int pixel[],int a);
 
-void test(int pixel[],int a){
-    for(int i=0;i<a;i++){
-      pixel[i]=2;
-    }
-}
 
 int main()
 {
-	timespec ts;
-	clock_gettime(CLOCK_REALTIME,&ts);
-	printf("das liefert es %d \n",ts.tv_nsec);
-	puts("pause");
-	puts("pause");
-	puts("pause");
-	puts("pause");
-	puts("pause");
-	puts("pause");
-	puts("pause");
-	puts("pause");
-	puts("pause");
-	clock_gettime(CLOCK_REALTIME,&ts);
-	printf("Ngneu das liefert es %d \n",ts.tv_nsec);
+	vector<char> window;
+	window.push_back('a');
+	window[1]='b';
+	
+	printf("a ==? %i   und  %i  ",window.max_size() , 'b');
+	
 	//~ int x,y;
 	//~ initDisplay();
 	//~ getmaxyx(stdscr,y,x);

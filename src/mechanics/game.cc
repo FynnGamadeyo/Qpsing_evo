@@ -1,8 +1,12 @@
 #include "game.hh"
 #include <sys/time.h>
+
 Game::Game(){
   this->fps=60.0;
   this->running=false;
+  
+  this->windowSizeX=40;
+  this->windowSizeY=40;
 }
 
 void Game::run(){

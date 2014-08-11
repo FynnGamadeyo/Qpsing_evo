@@ -20,9 +20,13 @@ class Actor{
 		int gender;
 		int age;
 		
-		int health;
-		int mana;
-		int stamina;
+		double health;
+		double mana;
+		double stamina;
+		
+		double healthreg;
+		double manareg;
+		double staminareg;
 		
 		int agility;
 		int strength;
