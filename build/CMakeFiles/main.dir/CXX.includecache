@@ -6,11 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/world/worldgenerator.cc
-worldgenerator.hh
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/world/worldgenerator.hh
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/display.hh
+ncurses.h
+-
+sys/ioctl.h
+-
+stdio.h
+-
+string
+-
+stack
+-
+map
+-
 
-/home/nam/KingWorkPlace/Projekt/1_cppGame/src/mechanics/world/worldgenerator.hh
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/terminalRender.cc
+terminalRender.hh
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/terminalRender.hh
+
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/terminalRender.hh
+display.hh
+/home/nam/KingWorkPlace/Projekt/1_cppGame/src/drivers/graphics/display.hh
 vector
 -
 

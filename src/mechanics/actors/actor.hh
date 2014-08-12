@@ -12,7 +12,7 @@ class Actor{
 		void moveUp();
 		void moveLeft();
 		void moveRight();
-		int getDamage();
+		void getDamage();
 	private:
 		string name;
 		string familieName;
