@@ -18,6 +18,7 @@ CMakeFiles/main.dir/src/main.cc.o: ../src/drivers/graphics/display.hh
 CMakeFiles/main.dir/src/main.cc.o: ../src/drivers/graphics/draw.hh
 CMakeFiles/main.dir/src/main.cc.o: ../src/main.cc
 CMakeFiles/main.dir/src/main.cc.o: ../src/mechanics/actors/actor.hh
+CMakeFiles/main.dir/src/main.cc.o: ../src/mechanics/game.hh
 
 CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o: ../src/mechanics/actors/actor.cc
 CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o: ../src/mechanics/actors/actor.hh

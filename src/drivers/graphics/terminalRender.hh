@@ -9,7 +9,7 @@ using namespace std;
 class TerminalRender {
 public:
       TerminalRender();
-      void render(WINDOW * w, vector<char>  pixels, int width, int height);
+      void render(WINDOW * w, vector<char>  pixels, int width, int height, int depth);
 };
 
 #endif /* TERMINALRENDER_HH  */

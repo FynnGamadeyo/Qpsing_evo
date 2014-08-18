@@ -4,7 +4,7 @@ TerminalRender::TerminalRender(){
   
 }
 
-void TerminalRender::render(WINDOW * w, vector<char> pixels, int width, int height){
+void TerminalRender::render(WINDOW * w, vector<char> pixels, int width, int height,int depth){
 	for(int y=0;y<height;y++){
 		for(int x=0;x<width;x++){
 			mvwprintw(w,y,x,&pixels[x + width * y]);

@@ -1,15 +1,15 @@
 #ifndef GAME_HH
 #define GAME_HH 1
 
+#include <ncurses.h>
 #include <vector>
-
 #include <ctime>
+
 using namespace std;
 
 class Game {
 	public:
-		Game();
-		~Game();
+		Game(WINDOW *w);
 		void run();
 	private:
 		void tick();
@@ -22,5 +22,6 @@ class Game {
 		int windowSizeX;
 		int windowSizeY;
 		std::vector<char> window;
+		WINDOW *viewingWindow;
 };
 #endif /* GAME_HH */

@@ -1,7 +1,6 @@
 #include "mechanics/actors/actor.hh"
 #include "drivers/graphics/display.hh"
 #include "drivers/graphics/draw.hh"
-#include <ncurses.h>
 #include <sys/ioctl.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -11,6 +10,11 @@
 #define C (A+B)
 #include <sys/time.h>
 #include <vector>
+#include "mechanics/game.hh"
+
+
+#include <stdio.h>
+#include <stdlib.h>
 
 
 using namespace std;
@@ -18,11 +22,10 @@ using namespace std;
 
 int main()
 {
-	vector<char> window;
-	window.push_back('a');
-	window[1]='b';
+    	WINDOW w;
+	Game game(&w);
 	
-	printf("a ==? %i   und  %i  ",window.max_size() , 'b');
+	game.run();
 	
 	//~ int x,y;
 	//~ initDisplay();
@@ -32,7 +35,7 @@ int main()
 	//~ 
 	//~ 
 	//~ WINDOW *subsreen = subwin(screen, 10, 10,10, 10);
-//~ 
+	//~ 
 	//~ WINDOW *subscreen2 = subwin(screen,10,10,15,15);
 	//~ 
 	//~ fillWindow(screen,'#');
@@ -57,7 +60,7 @@ int main()
 	//~ 
 	//~ deinitDisplay();
 
-	return 0;
+	return EXIT_SUCCESS;
 }
 
 

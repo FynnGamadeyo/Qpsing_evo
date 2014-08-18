@@ -1,8 +1,11 @@
 #include "game.hh"
 #include <sys/time.h>
+#include "../drivers/graphics/terminalRender.hh"
 
-Game::Game(){
-  this->fps=60.0;
+
+Game::Game(WINDOW *w){
+  this->viewingWindow=w;
+  this->fps=30.0;
   this->running=false;
   
   this->windowSizeX=40;
@@ -27,6 +30,7 @@ void Game::run(){
 	while(this->running){
 	  clock_gettime(CLOCK_REALTIME,&curtime);
 	  passtime=curtime.tv_nsec-pretime;
+	  
 	  delta+=passtime/1000000000.0;
 	  
 	  while(delta>fix){
@@ -46,9 +50,7 @@ void Game::run(){
 	  }
 	  this->render();
 	  frames++;
-	  
 	}
-
 }
 
 void Game::tick(){
@@ -57,7 +59,8 @@ void Game::tick(){
 
 void Game::render()
 {
-
+   
+   this->viewingWindow;
 }
 
 void Game::start()
