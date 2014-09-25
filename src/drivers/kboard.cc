@@ -4,10 +4,9 @@ int keyPressed(char key){
 	if(kbhit()==1){
 		if(wgetch()==key){
 			return 1;
-		}		
+		}
 	}
 	return 0;
-
 }
 
 int kbhit(void) {

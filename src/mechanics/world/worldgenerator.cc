@@ -16,7 +16,7 @@ void Worldgenerator::generateEnvironment(vector< char > world, int length, int w
    for(int z=0; z<depth;z++){
      for(int y=0;y<length;y++){
       for(int x=0;x<width;x++){
-	world[z*length*width+y*length+x]='X';
+	world[z*length*width+y*length+x]='x';
       }
      }
    }
