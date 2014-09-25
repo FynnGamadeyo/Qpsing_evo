@@ -4,23 +4,23 @@ TerminalRender::TerminalRender(){
   
 }
 
-void TerminalRender::render(WINDOW * w, vector<char> imagePix, int windowWidth, int windowHeight,int startWidth,int startHeight,int startDepth, int width, int height){
+void TerminalRender::render(WINDOW * w, vector<char> imagePix, int windowWidth, int windowHeight,int imagePosX,int imagePosY,int startDepth, int width, int height){
 	int endY;
-	if((startHeight+windowHeight)>height){
-	  endY=(startHeight+windowHeight)-((startHeight+windowHeight)-width);
+	if((imagePosY+windowHeight)>height){
+	  endY=(imagePosY+windowHeight)-((imagePosY+windowHeight)-width);
 	}else{
-	  endY=(startHeight+windowHeight);
+	  endY=(imagePosY+windowHeight);
 	}
 	
 	int endX;
-	if((startWidth+windowWidth)>width){
+	if((imagePosX+windowWidth)>width){
 	  endX=23232323; // <-<>->
 	}else{
 	  
 	}
   
-	for(int y=startHeight;y<endY;y++){
-	  for(int x=startWidth;x<(startWidth+windowWidth);x++){
+	for(int y=imagePosY;y<endY;y++){
+	  for(int x=imagePosX;x<(imagePosX+windowWidth);x++){
 	    
 	      mvwprintw(w,y,x,&imagePix[x + width * y + startDepth * width * height]);
 	    
