@@ -29,10 +29,10 @@ void TerminalRender::render(WINDOW * w, vector<char> imagePix, int imageWidth, i
 	  endX=(imagePosX+imageWidth)-((imagePosX+imageWidth)-windowWidth); 
 	}
   
-	for(int y=imagePosY;y<endY;y++){
-	  for(int x=imagePosX;x<(imagePosX+imageWidth);x++){
+	for(int y=startY;y<endY;y++){
+	  for(int x=startX;x<endX;x++){
 	    
-	      mvwprintw(w,y,x,&imagePix[x + windowWidth * y + startDepth * windowWidth * windowHeight]);
+	      mvwprintw(w,y,x,&imagePix[x + imageWidth * y + startDepth * imageWidth * imageHeight]); 
 	    
 	  }
 	}
@@ -42,13 +42,5 @@ void TerminalRender::render(WINDOW * w, vector<char> imagePix, int imageWidth, i
 	}else{
 	  // ERROR IMAGE IS OUT OF WINDOW !
 	}
-  
-// 	for(int y=0;y<height;y++){
-// 		for(int x=0;x<width;x++){
-// 			mvwprintw(w,y,x,&pixels[x + width * y]);
-// 		}
-// 	}
-// 	wmove(w,0,0);
-// 	wrefresh(w);
 }
 
