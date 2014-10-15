@@ -14,9 +14,14 @@
 using namespace std;
 
 class Display{
-	public:
+public:
 	Display(bool cursset);
-	private:
+	~Display();
+	int height;
+	int width;
+	void refresh();
+private:
+	struct winsize w;
 	void initDisplay(bool cursset);
 };
 

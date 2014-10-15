@@ -1,6 +1,11 @@
 #include "mechanics/actors/actor.hh"
 #include "drivers/graphics/display.hh"
 #include "drivers/graphics/draw.hh"
+
+#include "drivers/sema.hh"
+
+#include "drivers/kboard.hh"
+
 #include <sys/ioctl.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -19,17 +24,25 @@
 
 using namespace std;
 
+Sema d();
 
 int main()
 {
-    	WINDOW w;
-	Game game(&w);
+// 	d.P();
 	
-	game.run();
+	Display(true);
+	mvprintw(2,2,"ddasdasdasdasf");
+	wgetch();
+  
+//     	WINDOW wa;
+// 	Game game(&wa);
+// 	
+// 	game.run();
+    
+// 	int x,y;
+// 	Display();
+// 	getmaxyx(stdscr,y,x);
 	
-	//~ int x,y;
-	//~ initDisplay();
-	//~ getmaxyx(stdscr,y,x);
 	//~ 
 	//~ WINDOW *screen  = crateWindow("screen",y,x,0,0);
 	//~ 

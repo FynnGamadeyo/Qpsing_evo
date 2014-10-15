@@ -1,18 +1,39 @@
 #include "game.hh"
 #include <sys/time.h>
-#include "../drivers/graphics/terminalRender.hh"
 
 
-Game::Game(WINDOW *w){
+
+
+Game::Game(Display *w){
   this->viewingWindow=w;
   this->fps=30.0;
   this->running=false;
   
   this->windowSizeX=40;
   this->windowSizeY=40;
+  
+  this->terminal=TerminalRender();
+  
 }
 
+void Game::switchMode()
+{
+
+  
+}
+
+
 void Game::run(){
+      fastMode();
+}
+
+void Game::slowMode()
+{
+	
+}
+
+void Game::fastMode()
+{
 	int pretime;
 	timespec pretimeInit;
 	clock_gettime(CLOCK_REALTIME,&pretimeInit);
@@ -53,14 +74,15 @@ void Game::run(){
 	}
 }
 
-void Game::tick(){
 
+void Game::tick(){
+    
 }
 
 void Game::render()
 {
-   
-   this->viewingWindow;
+// render(WINDOW * w, vector<char> imagePix, int imageWidth, int imageHeight,int imagePosX,int imagePosY,int startDepth, int windowWidth, int windowHeight)
+//    this->terminal.render();
 }
 
 void Game::start()

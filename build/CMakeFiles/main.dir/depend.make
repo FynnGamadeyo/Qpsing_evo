@@ -16,17 +16,25 @@ CMakeFiles/main.dir/src/drivers/kboard.cc.o: ../src/drivers/kboard.hh
 
 CMakeFiles/main.dir/src/main.cc.o: ../src/drivers/graphics/display.hh
 CMakeFiles/main.dir/src/main.cc.o: ../src/drivers/graphics/draw.hh
+CMakeFiles/main.dir/src/main.cc.o: ../src/drivers/graphics/terminalRender.hh
+CMakeFiles/main.dir/src/main.cc.o: ../src/drivers/kboard.hh
+CMakeFiles/main.dir/src/main.cc.o: ../src/drivers/sema.hh
 CMakeFiles/main.dir/src/main.cc.o: ../src/main.cc
 CMakeFiles/main.dir/src/main.cc.o: ../src/mechanics/actors/actor.hh
 CMakeFiles/main.dir/src/main.cc.o: ../src/mechanics/game.hh
+CMakeFiles/main.dir/src/main.cc.o: ../src/mechanics/manager.hh
 
 CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o: ../src/mechanics/actors/actor.cc
 CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o: ../src/mechanics/actors/actor.hh
 
 CMakeFiles/main.dir/src/mechanics/effects/effect.cc.o: ../src/mechanics/effects/effect.cc
 
+CMakeFiles/main.dir/src/mechanics/game.cc.o: ../src/drivers/graphics/display.hh
+CMakeFiles/main.dir/src/mechanics/game.cc.o: ../src/drivers/graphics/terminalRender.hh
+CMakeFiles/main.dir/src/mechanics/game.cc.o: ../src/drivers/sema.hh
 CMakeFiles/main.dir/src/mechanics/game.cc.o: ../src/mechanics/game.cc
 CMakeFiles/main.dir/src/mechanics/game.cc.o: ../src/mechanics/game.hh
+CMakeFiles/main.dir/src/mechanics/game.cc.o: ../src/mechanics/manager.hh
 
 CMakeFiles/main.dir/src/mechanics/spells/spell.cc.o: ../src/mechanics/spells/spell.cc
 

@@ -31,9 +31,15 @@ void TerminalRender::render(WINDOW * w, vector<char> imagePix, int imageWidth, i
   
 	for(int y=startY;y<endY;y++){
 	  for(int x=startX;x<endX;x++){
-	    
 	      mvwprintw(w,y,x,&imagePix[x + imageWidth * y + startDepth * imageWidth * imageHeight]); 
-	    
+	      
+	      // implements later
+// 	      if(mainWindow){
+// 		mvprintw(y,x,&imagePix[x + imageWidth * y + startDepth * imageWidth * imageHeight]); 
+// 	      }else{
+// 		mvwprintw(w,y,x,&imagePix[x + imageWidth * y + startDepth * imageWidth * imageHeight]); 
+// 	      }
+	      
 	  }
 	}
 	wmove(w,0,0);
