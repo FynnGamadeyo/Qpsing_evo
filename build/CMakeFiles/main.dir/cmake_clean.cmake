@@ -1,4 +1,4 @@
-file(REMOVE_RECURSE
+FILE(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/main.cc.o"
   "CMakeFiles/main.dir/src/mechanics/world/worldgenerator.cc.o"
   "CMakeFiles/main.dir/src/mechanics/weapons/weapon.cc.o"
@@ -15,6 +15,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
-  include(CMakeFiles/main.dir/cmake_clean_${lang}.cmake OPTIONAL)
-endforeach()
+FOREACH(lang CXX)
+  INCLUDE(CMakeFiles/main.dir/cmake_clean_${lang}.cmake OPTIONAL)
+ENDFOREACH(lang)

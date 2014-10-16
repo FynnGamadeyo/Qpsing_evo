@@ -5,9 +5,9 @@
 #include <vector>
 #include <ctime>
 #include "../drivers/graphics/display.hh"
-#include "../drivers/sema.hh"
+// #include "../drivers/sema.hh"
 #include "../drivers/graphics/terminalRender.hh"
-#include "manager.hh"
+// #include "manager.hh"
 
 using namespace std;
 
@@ -31,6 +31,6 @@ class Game {
 		std::vector<char> window;
 		Display *viewingWindow;
 		TerminalRender terminal;
-		Manager manager;
+// 		Manager manager;
 };
 #endif /* GAME_HH */

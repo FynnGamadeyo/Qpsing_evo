@@ -2,7 +2,7 @@
 #include "drivers/graphics/display.hh"
 #include "drivers/graphics/draw.hh"
 
-#include "drivers/sema.hh"
+// #include "drivers/sema.hh"
 
 #include "drivers/kboard.hh"
 
@@ -24,7 +24,7 @@
 
 using namespace std;
 
-Sema d();
+
 
 int main()
 {
