@@ -9,6 +9,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/drivers/kboard.cc.o"
   "CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o"
   "CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o"
+  "CMakeFiles/main.dir/src/mechanics/world/world.cc.o"
   "CMakeFiles/main.dir/src/mechanics/game.cc.o"
   "main.pdb"
   "main"

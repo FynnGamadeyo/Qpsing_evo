@@ -9,6 +9,9 @@
 #include "../drivers/graphics/terminalRender.hh"
 // #include "manager.hh"
 
+#include "world/world.hh"
+
+
 using namespace std;
 
 class Game {
@@ -31,6 +34,7 @@ class Game {
 		std::vector<char> window;
 		Display *viewingWindow;
 		TerminalRender terminal;
+		World world;
 // 		Manager manager;
 };
 #endif /* GAME_HH */

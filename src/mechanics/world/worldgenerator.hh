@@ -7,8 +7,8 @@ using namespace std;
 class Worldgenerator {
 	public:
 		Worldgenerator();
-		~Worldgenerator();
 		void generate(vector<char> world,int length,int width,int depth,int complex);
+		void generateEnvironment(vector<char> *world,int length,int width,int depth);
 	private:
 		void spwanMonster(vector<char> world,int population,int minLevel, int maxLevel);
 		void spwanMonsterBase();
@@ -16,7 +16,6 @@ class Worldgenerator {
 		void spwanVillage();
 		void spwanTown();
 		void spwanCapital();
-		void generateEnvironment(vector<char> world,int length,int width,int depth);
 };
 
 #endif /* worldgenerator_hh */

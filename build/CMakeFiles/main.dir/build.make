@@ -279,9 +279,32 @@ CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o.provides: CMakeFile
 
 CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o.provides.build: CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o
 
+CMakeFiles/main.dir/src/mechanics/world/world.cc.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/mechanics/world/world.cc.o: ../src/mechanics/world/world.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/5_cppGame/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/mechanics/world/world.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/mechanics/world/world.cc.o -c /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/world.cc
+
+CMakeFiles/main.dir/src/mechanics/world/world.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/mechanics/world/world.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/world.cc > CMakeFiles/main.dir/src/mechanics/world/world.cc.i
+
+CMakeFiles/main.dir/src/mechanics/world/world.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/mechanics/world/world.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/world.cc -o CMakeFiles/main.dir/src/mechanics/world/world.cc.s
+
+CMakeFiles/main.dir/src/mechanics/world/world.cc.o.requires:
+.PHONY : CMakeFiles/main.dir/src/mechanics/world/world.cc.o.requires
+
+CMakeFiles/main.dir/src/mechanics/world/world.cc.o.provides: CMakeFiles/main.dir/src/mechanics/world/world.cc.o.requires
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mechanics/world/world.cc.o.provides.build
+.PHONY : CMakeFiles/main.dir/src/mechanics/world/world.cc.o.provides
+
+CMakeFiles/main.dir/src/mechanics/world/world.cc.o.provides.build: CMakeFiles/main.dir/src/mechanics/world/world.cc.o
+
 CMakeFiles/main.dir/src/mechanics/game.cc.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/mechanics/game.cc.o: ../src/mechanics/game.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/5_cppGame/build/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/nam/kingDocument/projekt/5_cppGame/build/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main.dir/src/mechanics/game.cc.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main.dir/src/mechanics/game.cc.o -c /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/game.cc
 
@@ -314,6 +337,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/drivers/kboard.cc.o" \
 "CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o" \
 "CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o" \
+"CMakeFiles/main.dir/src/mechanics/world/world.cc.o" \
 "CMakeFiles/main.dir/src/mechanics/game.cc.o"
 
 # External object files for target main
@@ -329,6 +353,7 @@ main: CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o
 main: CMakeFiles/main.dir/src/drivers/kboard.cc.o
 main: CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o
 main: CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o
+main: CMakeFiles/main.dir/src/mechanics/world/world.cc.o
 main: CMakeFiles/main.dir/src/mechanics/game.cc.o
 main: CMakeFiles/main.dir/build.make
 main: /usr/lib/x86_64-linux-gnu/libcurses.so
@@ -351,6 +376,7 @@ CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/drivers/graphics/draw.cc.o
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/drivers/kboard.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/drivers/graphics/terminalRender.cc.o.requires
+CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/mechanics/world/world.cc.o.requires
 CMakeFiles/main.dir/requires: CMakeFiles/main.dir/src/mechanics/game.cc.o.requires
 .PHONY : CMakeFiles/main.dir/requires
 

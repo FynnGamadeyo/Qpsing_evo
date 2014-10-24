@@ -1,11 +1,10 @@
 #include "game.hh"
 #include <sys/time.h>
+#include "../drivers/kboard.hh"
 
 
-
-
-Game::Game(Display *w){
-  this->viewingWindow=w;
+Game::Game(Display *das): world(10,10,1) {
+  this->viewingWindow=das;
   this->fps=30.0;
   this->running=false;
   
@@ -13,7 +12,6 @@ Game::Game(Display *w){
   this->windowSizeY=40;
   
   this->terminal=TerminalRender();
-  
 }
 
 void Game::switchMode()
@@ -77,6 +75,23 @@ void Game::fastMode()
 
 void Game::tick(){
     
+  
+  
+    if(keyPressed('w')){
+      
+    }
+    if(keyPressed('s')){
+      
+    }
+    if(keyPressed('a')){
+      
+    }
+    if(keyPressed('d')){
+      
+    }
+
+    
+  
 }
 
 void Game::render()

@@ -351,6 +351,30 @@ src/mechanics/weapons/weapon.cc.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mechanics/weapons/weapon.cc.s
 .PHONY : src/mechanics/weapons/weapon.cc.s
 
+src/mechanics/world/world.o: src/mechanics/world/world.cc.o
+.PHONY : src/mechanics/world/world.o
+
+# target to build an object file
+src/mechanics/world/world.cc.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mechanics/world/world.cc.o
+.PHONY : src/mechanics/world/world.cc.o
+
+src/mechanics/world/world.i: src/mechanics/world/world.cc.i
+.PHONY : src/mechanics/world/world.i
+
+# target to preprocess a source file
+src/mechanics/world/world.cc.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mechanics/world/world.cc.i
+.PHONY : src/mechanics/world/world.cc.i
+
+src/mechanics/world/world.s: src/mechanics/world/world.cc.s
+.PHONY : src/mechanics/world/world.s
+
+# target to generate assembly for a file
+src/mechanics/world/world.cc.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/mechanics/world/world.cc.s
+.PHONY : src/mechanics/world/world.cc.s
+
 src/mechanics/world/worldgenerator.o: src/mechanics/world/worldgenerator.cc.o
 .PHONY : src/mechanics/world/worldgenerator.o
 
@@ -414,6 +438,9 @@ help:
 	@echo "... src/mechanics/weapons/weapon.o"
 	@echo "... src/mechanics/weapons/weapon.i"
 	@echo "... src/mechanics/weapons/weapon.s"
+	@echo "... src/mechanics/world/world.o"
+	@echo "... src/mechanics/world/world.i"
+	@echo "... src/mechanics/world/world.s"
 	@echo "... src/mechanics/world/worldgenerator.o"
 	@echo "... src/mechanics/world/worldgenerator.i"
 	@echo "... src/mechanics/world/worldgenerator.s"

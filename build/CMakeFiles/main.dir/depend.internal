@@ -21,7 +21,9 @@ CMakeFiles/main.dir/src/main.cc.o
  /home/nam/kingDocument/projekt/5_cppGame/src/drivers/kboard.hh
  /home/nam/kingDocument/projekt/5_cppGame/src/main.cc
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/actors/actor.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/actors/hero.hh
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/game.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/world.hh
 CMakeFiles/main.dir/src/mechanics/actors/actor.cc.o
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/actors/actor.cc
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/actors/actor.hh
@@ -30,12 +32,22 @@ CMakeFiles/main.dir/src/mechanics/effects/effect.cc.o
 CMakeFiles/main.dir/src/mechanics/game.cc.o
  /home/nam/kingDocument/projekt/5_cppGame/src/drivers/graphics/display.hh
  /home/nam/kingDocument/projekt/5_cppGame/src/drivers/graphics/terminalRender.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/drivers/kboard.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/actors/actor.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/actors/hero.hh
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/game.cc
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/game.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/world.hh
 CMakeFiles/main.dir/src/mechanics/spells/spell.cc.o
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/spells/spell.cc
 CMakeFiles/main.dir/src/mechanics/weapons/weapon.cc.o
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/weapons/weapon.cc
+CMakeFiles/main.dir/src/mechanics/world/world.cc.o
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/actors/actor.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/actors/hero.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/world.cc
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/world.hh
+ /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/worldgenerator.hh
 CMakeFiles/main.dir/src/mechanics/world/worldgenerator.cc.o
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/worldgenerator.cc
  /home/nam/kingDocument/projekt/5_cppGame/src/mechanics/world/worldgenerator.hh

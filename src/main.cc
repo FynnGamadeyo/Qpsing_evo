@@ -21,6 +21,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "mechanics/actors/hero.hh"
+
 
 using namespace std;
 
@@ -29,10 +31,13 @@ using namespace std;
 int main()
 {
 // 	d.P();
+
+	Hero hero(1,5,1,'A');
+	hero.moveDown();
 	
-	Display(true);
-	mvprintw(2,2,"ddasdasdasdasf");
-	wgetch();
+// 	Display(true);
+// 	mvprintw(2,2,"ddasdasdasdasf");
+// 	wgetch();
   
 //     	WINDOW wa;
 // 	Game game(&wa);
