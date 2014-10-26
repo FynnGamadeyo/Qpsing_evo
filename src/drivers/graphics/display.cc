@@ -3,10 +3,10 @@
 
 Display::Display(bool cursset){
 	this->initDisplay(cursset);
-	ioctl(STDOUT_FILENO, TIOCGWINSZ, &this->w);
+	ioctl(STDOUT_FILENO, TIOCGWINSZ, &this->ww);
 	
-	this->height=this->w.ws_row;
-	this->width =this->w.ws_row;
+	this->height=this->ww.ws_row;
+	this->width =this->ww.ws_row;
 }
 
 void Display::initDisplay(bool cursset){
@@ -25,8 +25,8 @@ Display::~Display()
 
 void Display::refresh()
 {
-	ioctl(STDOUT_FILENO, TIOCGWINSZ, &this->w);
-	this->height=this->w.ws_row;
-	this->width =this->w.ws_row;
+	ioctl(STDOUT_FILENO, TIOCGWINSZ, &this->ww);
+	this->height=this->ww.ws_row;
+	this->width =this->ww.ws_row;
 }
 

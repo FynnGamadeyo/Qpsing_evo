@@ -1,21 +1,41 @@
 #include "actor.hh"
 
-Actor::Actor(){
+Actor::Actor(int x, int y, int z, char rep){
+	setNewLocation(x,y,z);
+}
 
+Actor::Actor(){
+	
 }
 
 void Actor::moveDown(){
-	puts("moveDown");
+	this->coordinationY--;
+	printf("coordinat Y %d",this->coordinationY);
 };
 
 void Actor::moveUp(){
-	puts("moveUp");
+	this->coordinationY++;
 };
 
 void Actor::moveLeft(){
-	puts("moveLeft");
+	this->coordinationX--;
 };
 
 void Actor::moveRight(){
-	puts("moveRight");
+	this->coordinationX++;
 };
+
+void Actor::setNewLocation(int x, int y, int z)
+{
+    this->coordinationX=x;
+    this->coordinationY=y;
+    this->coordinationZ=z;
+}
+
+void Actor::draw(vector< char > *map, int w,int l, int h)
+{
+   vector<char> pp=*map;
+   pp[23]=this->rep;
+}
+
+

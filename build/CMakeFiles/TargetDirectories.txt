@@ -1,1 +1,1 @@
-/home/nam/KingWorkPlace/Projekt/1_cppGame/build/CMakeFiles/main.dir
+/home/nam/kingDocument/projekt/5_cppGame/build/CMakeFiles/main.dir

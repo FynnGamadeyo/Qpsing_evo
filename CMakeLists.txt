@@ -24,6 +24,7 @@ add_executable(main src/main.cc
 		src/drivers/kboard.cc
 		src/mechanics/actors/actor.cc
 		src/drivers/graphics/terminalRender.cc
+		src/mechanics/world/world.cc
 		src/mechanics/game.cc)
 
 target_link_libraries(main ${CURSES_LIBRARIES})

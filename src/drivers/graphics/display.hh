@@ -21,7 +21,7 @@ public:
 	int width;
 	void refresh();
 private:
-	struct winsize w;
+	struct winsize ww;
 	void initDisplay(bool cursset);
 };
 
